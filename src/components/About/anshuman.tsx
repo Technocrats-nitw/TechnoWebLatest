@@ -5,6 +5,7 @@ import ScrollAnimation from "react-animate-on-scroll";
 import { Android, Cpp, Django, Flutter, HTML, Js, Nodejs, Python, REACT, Tf, Torch } from "../Icons/Icons";
 import linkedinIcon from '../../assets/linkedin.png'
 import githubIcon from '../../assets/github.png'
+import anshuImg from "../../assets/anshuman.jpeg";
 
 export function Anshuman(props:any){
   return(
@@ -70,7 +71,7 @@ export function Anshuman(props:any){
 
       <div className="about-image">
         <ScrollAnimation animateIn="fadeInLeft" delay={0.6 * 1000}>
-          <img src="https://media-exp1.licdn.com/dms/image/C5603AQGL7iNvKe1N9w/profile-displayphoto-shrink_800_800/0/1642569930533?e=1648080000&v=beta&t=zO6f3roEWOT2_5pUsS6iA-MT5PGHN8PICZb-LdpWX-o" alt="Anshuman Mishra" />
+          <img src={anshuImg} alt="Anshuman Mishra" />
         </ScrollAnimation>
 
       </div>
