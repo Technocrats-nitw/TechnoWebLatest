@@ -1,27 +1,35 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6c180060cbc1e4a15b9f8dbc9b569309",
+    "revision": "cf57cf21856b67ad614750bbdc04bf7d",
     "url": "/web/index.html"
   },
   {
-    "revision": "5ea2e5cde63ca3bcc1e4",
+    "revision": "6bbe3d3c6d72e550a24e",
     "url": "/web/static/css/2.b8803beb.chunk.css"
   },
   {
-    "revision": "5ea2e5cde63ca3bcc1e4",
-    "url": "/web/static/js/2.c19649e4.chunk.js"
+    "revision": "6bbe3d3c6d72e550a24e",
+    "url": "/web/static/js/2.5ed47beb.chunk.js"
   },
   {
-    "revision": "54e894d70e035821086a",
-    "url": "/web/static/js/main.13bd0586.chunk.js"
+    "revision": "b219684b902eec60901f2778133c6c5f",
+    "url": "/web/static/js/2.5ed47beb.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "33ed4ec846e9d84e8327",
-    "url": "/web/static/js/runtime~main.c75ffd02.js"
+    "revision": "14565cf6dbfcec33ebbf",
+    "url": "/web/static/js/main.60bb3c1f.chunk.js"
+  },
+  {
+    "revision": "8611874e5ec2c1d8dab0",
+    "url": "/web/static/js/runtime-main.33aab821.js"
   },
   {
     "revision": "a1f657a29a74d01a752f8bfa021c3797",
     "url": "/web/static/media/android-tile.a1f657a2.svg"
+  },
+  {
+    "revision": "4d4e5c0c109d6fbceac0e2985f96d961",
+    "url": "/web/static/media/anshuman.4d4e5c0c.jpeg"
   },
   {
     "revision": "c166411b76ee7eb9b4f07ca3f08fdd1e",
