@@ -4,10 +4,19 @@ import styled from "styled-components";
 export const Container = styled.section`
   margin-top: 15rem;
 
+  .hard-skills{
+    margin-top: 1.6rem;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.8rem;
+  }
+
   h2{
     text-align: center;
     font-size: 4rem;
     margin-bottom: 10rem;
+    color:#000000;
   }
 
   .projects{
@@ -20,7 +29,7 @@ export const Container = styled.section`
 
     .project{
       padding: 2rem 1.8rem;
-      background-color: #2b2b2b;
+      background-color: #432a59;
       border-radius: 1.2rem;
       transition: 0.25s;
       display: flex;
@@ -29,7 +38,7 @@ export const Container = styled.section`
       color: #FFF;
       &:hover{
         transform: translateY(-5px);
-        background-color: var(--pink);
+        background-color: var(--orange);
       }
 
       header{
@@ -47,7 +56,6 @@ export const Container = styled.section`
           width: 2.6rem;
         }
       }
-      
       h3{
         margin-bottom: 2rem;
       }
@@ -60,7 +68,7 @@ export const Container = styled.section`
           border-bottom: 1px solid var(--green);
           transition: color 0.25s;
           &:hover{
-            color: var(--green);
+            color: var(--purple);
           }
         }
       }

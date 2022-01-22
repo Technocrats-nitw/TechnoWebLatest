@@ -2,14 +2,15 @@ import React from "react";
 import { Container } from "./styles";
 
 import ScrollAnimation from "react-animate-on-scroll";
-import { Cpp, Matlab, Mysql, Python, Rust, Unity } from "../Icons/Icons";
-
+import { Cpp, Matlab, Python, Rust, Unity } from "../Icons/Icons";
+import linkedinIcon from '../../assets/linkedin.png'
+import githubIcon from '../../assets/github.png'
 
 
 
 export function Aaditya(props:any){
   return(
-    <Container id="sobre">
+    <Container id="about">
       <div className="about-text">
         <ScrollAnimation animateIn="fadeInRight">
           <h2>Aaditya Prakash Kattekola</h2>
@@ -36,6 +37,30 @@ export function Aaditya(props:any){
           <Rust/>
           <Python/>
       </div>
+
+      <ScrollAnimation animateIn="fadeInRight" delay={0.7 * 1000}>
+          <h3>Social Urls :</h3>
+        </ScrollAnimation>
+
+        <div className="social-media hard-skills">
+        <a
+          href="https://www.linkedin.com/in/aaditya-prakash-74500b195/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img src={linkedinIcon} alt="Linkedin" />
+        </a>
+
+        <a
+          href="https://github.com/Kapi2910"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img src={githubIcon} alt="GitHub" />
+        </a>
+
+        </div>
+
       </div>
       <div className="about-image">
         <ScrollAnimation animateIn="fadeInLeft" delay={0.6 * 1000}>

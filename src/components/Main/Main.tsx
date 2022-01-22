@@ -1,23 +1,22 @@
 import React from "react";
 import {Container} from "./styles"
-import {Hero} from "../Hero/Hero"
-
-import { Contact } from "../Contact/Contact";
-import { Portfolio } from "../Portfolio/Portfolio";
-
-import BG from "../Bg/bg";
+import {Intro} from "../Intro/Intro"
 import { Abdullah } from "../About/abdullah";
 import { Chaitanya } from "../About/chaitanya";
 import { Ashiqa } from "../About/ashiqa";
 import { Sufiyan } from "../About/sufiyan";
 import { Aaditya } from "../About/aaditya";
 import { Anshuman } from "../About/anshuman";
+import { Projects } from "../Projects/Projects";
+import { Header } from "../Header/Header";
+
 
 export function Main(){
   return(
     <Container>
-      <BG/>
-      <Hero></Hero>
+      <Header/> 
+      <Intro/>
+      <Projects/>
       <Sufiyan/>
       <Anshuman/>
       <Ashiqa />
@@ -25,8 +24,7 @@ export function Main(){
       <Abdullah />
       <Aaditya />
       
-      <Portfolio></Portfolio>
-      <Contact></Contact>
+      
     </Container>
   );
 }

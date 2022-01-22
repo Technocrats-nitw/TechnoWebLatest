@@ -8,7 +8,7 @@ function App() {
     <>
       <GlobalStyle></GlobalStyle>
       <Main></Main>
-      <Footer></Footer>
+      <Footer/>
     </>
   )
 }

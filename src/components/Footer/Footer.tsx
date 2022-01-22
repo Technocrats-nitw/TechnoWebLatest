@@ -4,26 +4,25 @@ import { Container } from './styles'
 import reactIcon from '../../assets/react-icon.svg'
 import linkedinIcon from '../../assets/linkedin.png'
 import githubIcon from '../../assets/github.png'
-import instagramIcon from '../../assets/instagram.png'
-import discordIcon from '../../assets/discord.png'
+import youtubeIcon from '../../assets/youtube.svg'
+import twitterIcon from '../../assets/twitter.png'
 
 export function Footer() {
   return (
-    <Container className="footer">
+    <Container className="footer" id="foot">
       <a href="/" className="logo">
-        <span>J</span>
-        <span>Tulio</span>
+        <span>Technocrats Labs</span>
+        <h6>technocrats.nitw@gmail.com</h6>
       </a>
       <div>
         <p>
-          Este site foi feito com <img src={reactIcon} alt="React" /> e muito
-          <span>❤️</span>
+          Made with <span>❤️</span> in <img src={reactIcon} alt="React" /> x <img src={githubIcon} alt="React" /> pages
         </p>
       </div>
 
       <div className="social-media">
         <a
-          href="https://www.linkedin.com/in/jtsoares/"
+          href="https://www.linkedin.com/company/technocrats-lab"
           target="_blank"
           rel="noreferrer"
         >
@@ -31,7 +30,7 @@ export function Footer() {
         </a>
 
         <a
-          href="https://github.com/joaotuliojt"
+          href="https://github.com/Technocrats-nitw"
           target="_blank"
           rel="noreferrer"
         >
@@ -39,19 +38,19 @@ export function Footer() {
         </a>
 
         <a
-          href="https://www.instagram.com/tulio_joaob/"
+          href="https://twitter.com/labs_technocrat"
           target="_blank"
           rel="noreferrer"
         >
-          <img src={instagramIcon} alt="Instagram" />
+          <img src={twitterIcon} alt="Twitter" />
         </a>
 
         <a
-          href="https://discord.com/users/426120432991862784"
+          href="https://www.youtube.com/channel/UC7XJqHdyyUgQcIYkCsP8APg"
           target="_blank"
           rel="noreferrer"
         >
-          <img src={discordIcon} alt="Discord" />
+          <img src={youtubeIcon} alt="YouTube" />
         </a>
       </div>
     </Container>

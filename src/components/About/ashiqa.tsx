@@ -2,11 +2,12 @@ import React from "react";
 import { Android, Cpp, Css, Django, Flutter, HTML, Js, Mysql, Nodejs, Python, REACT, Selenium } from "../Icons/Icons";
 import { Container } from "./styles";
 import ScrollAnimation from "react-animate-on-scroll";
-
+import linkedinIcon from '../../assets/linkedin.png'
+import githubIcon from '../../assets/github.png'
 
 export function Ashiqa(props:any){
   return(
-    <Container id="sobre">
+    <Container id="about">
 
       <div className="about-image">
         <ScrollAnimation animateIn="fadeInRight" delay={0.6 * 1000}>
@@ -48,6 +49,30 @@ export function Ashiqa(props:any){
           <Selenium/>
           
         </div>
+
+        <ScrollAnimation animateIn="fadeInRight" delay={0.7 * 1000}>
+          <h3>Social Urls :</h3>
+        </ScrollAnimation>
+
+        <div className="social-media hard-skills">
+        <a
+          href="https://www.linkedin.com/in/ashiqa-rahman-432a47192/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img src={linkedinIcon} alt="Linkedin" />
+        </a>
+
+        <a
+          href="https://github.com/ashiqa"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img src={githubIcon} alt="GitHub" />
+        </a>
+
+        </div>
+
       </div>
       
     </Container>

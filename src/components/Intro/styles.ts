@@ -14,10 +14,11 @@ export const Container = styled.section`
     }
     h1{
       font-size: 7rem;
+      color:#432a59;
     }
 
     h3{
-      color:var(--green);
+      color:var(--purple);
       margin: 1rem 0;
     }
 

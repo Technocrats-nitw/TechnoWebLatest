@@ -6,9 +6,15 @@ export const GlobalStyle = createGlobalStyle`
 
   :root{
     --pink: #E31F71;
-    --black: #694E4E;
+    --yellow: #e8e3c3;
+    --textCol : #0c0d0d;
     --green: #23ce6b;
+    
     --blue: #016fb9;
+    --black: #000000;
+    --purple:#432a59;
+    --white: #ffffff;
+    --orange: #e6aa32;
     scroll-padding-top: 10rem;
 
     &.light{
@@ -20,7 +26,7 @@ export const GlobalStyle = createGlobalStyle`
       }
 
       .logo{
-        color: var(--black);
+        color: var(--white);
       }
 
       header.header-fixed{
@@ -31,7 +37,7 @@ export const GlobalStyle = createGlobalStyle`
           color: black;
         }
         .menu,.menu:before, .menu:after{
-          background-color: var(--black); 
+          background-color: var(--yellow); 
         }
         .menu.active{
           background-color: rgba(555,555,555,0);
@@ -41,21 +47,8 @@ export const GlobalStyle = createGlobalStyle`
       footer.footer{
         transition: 0.5s;
         background-color: rgba(0,0,0,0.1);
-        color: var(--black);
+        color: var(--yellow);
       }
-
-      form{
-        input,textarea{
-          transition: 0.5s;
-          border: solid 1px var(--black);
-          color: var(--black);
-          &::placeholder{
-            transition: 0.5s;
-            color: var(--black);
-          }
-        }
-      }
-
     }
   }
 
@@ -81,7 +74,7 @@ export const GlobalStyle = createGlobalStyle`
   body{
     font-size: 1.6rem;
     -webkit-font-smoothing: antialiased;
-    background-color: var(--black);
+    background-color: var(-yellow);
     color: #FFFF;
   }
 

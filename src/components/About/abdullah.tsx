@@ -3,13 +3,14 @@ import { Container } from "./styles";
 
 import ScrollAnimation from "react-animate-on-scroll";
 import { Cpp, Matlab, Python, Ros, Solidworks, Tf } from "../Icons/Icons";
-
+import linkedinIcon from '../../assets/linkedin.png'
+import githubIcon from '../../assets/github.png'
 
 
 
 export function Abdullah(props:any){
   return(
-    <Container id="sobre">
+    <Container id="about">
     <div className="about-image">
         <ScrollAnimation animateIn="fadeInRight" delay={0.6 * 1000}>
           <img src="https://media-exp1.licdn.com/dms/image/C5103AQHUR3_ddGN-WQ/profile-displayphoto-shrink_800_800/0/1578214705767?e=1648080000&v=beta&t=jeNpvitWoOpZLrOcrLVItXiRHOLUVykcP69X0QIoVYk" alt="Imagem de perfil" />
@@ -43,6 +44,29 @@ export function Abdullah(props:any){
           <Solidworks/>
           <Matlab/>
       </div>
+      <ScrollAnimation animateIn="fadeInRight" delay={0.7 * 1000}>
+          <h3>Social Urls :</h3>
+        </ScrollAnimation>
+
+        <div className="social-media hard-skills">
+        <a
+          href="https://www.linkedin.com/in/shaik-abdullah-6ab62219b/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img src={linkedinIcon} alt="Linkedin" />
+        </a>
+
+        <a
+          href="https://github.com/Shaik2003"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img src={githubIcon} alt="GitHub" />
+        </a>
+
+        </div>
+
       </div>
       
     </Container>

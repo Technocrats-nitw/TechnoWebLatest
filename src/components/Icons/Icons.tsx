@@ -22,8 +22,21 @@ import torchIcon from "../../assets/pytorch-icon.svg";
 import seleniumIcon from "../../assets/selenium.svg";
 import cppIcon from "../../assets/cpp.svg";
 import csharpIcon from "../../assets/csharp.svg";
+import folderIcon from "../../assets/folder.svg";
 
 import ScrollAnimation from "react-animate-on-scroll";
+
+
+export function Folder(){
+    return (
+        <div className="hability">
+            
+              <img src={folderIcon} alt="C#" />
+            
+        </div>
+    );
+}
+
 
 export function Cpp(){
     return (

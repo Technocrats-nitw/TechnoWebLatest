@@ -3,11 +3,12 @@ import { Container } from "./styles";
 
 import ScrollAnimation from "react-animate-on-scroll";
 import { Android, Cpp, Django, Flutter, HTML, Js, Nodejs, Python, REACT, Tf, Torch } from "../Icons/Icons";
-
+import linkedinIcon from '../../assets/linkedin.png'
+import githubIcon from '../../assets/github.png'
 
 export function Anshuman(props:any){
   return(
-    <Container id="sobre">
+    <Container id="about">
       <div className="about-text">
         <ScrollAnimation animateIn="fadeInRight">
           <h2>Anshuman Mishra</h2>
@@ -25,7 +26,7 @@ export function Anshuman(props:any){
         </ScrollAnimation>
 
         <ScrollAnimation animateIn="fadeInRight" delay={0.7 * 1000}>
-          <h3>Aqui estão as minhas principais habilidades:</h3>
+          <h3>Expertise:</h3>
         </ScrollAnimation>
         <div className="hard-skills">
           <Cpp/>
@@ -40,7 +41,33 @@ export function Anshuman(props:any){
           <Android/>  
           <Python/>
         </div>
+
+      <ScrollAnimation animateIn="fadeInRight" delay={0.7 * 1000}>
+          <h3>Social Urls :</h3>
+        </ScrollAnimation>
+
+        <div className="social-media hard-skills">
+        <a
+          href="https://www.linkedin.com/in/iamanshuman/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img src={linkedinIcon} alt="Linkedin" />
+        </a>
+
+        <a
+          href="https://github.com/anshuisme"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img src={githubIcon} alt="GitHub" />
+        </a>
+
+        </div>
+
       </div>
+
+
       <div className="about-image">
         <ScrollAnimation animateIn="fadeInLeft" delay={0.6 * 1000}>
           <img src="https://media-exp1.licdn.com/dms/image/C5603AQGL7iNvKe1N9w/profile-displayphoto-shrink_800_800/0/1642569930533?e=1648080000&v=beta&t=zO6f3roEWOT2_5pUsS6iA-MT5PGHN8PICZb-LdpWX-o" alt="Anshuman Mishra" />
