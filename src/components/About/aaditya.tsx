@@ -16,19 +16,25 @@ export function Aaditya(props:any){
           <h2>Aaditya Prakash Kattekola</h2>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInRight" delay={0.2 * 1000}>
-          <p>Me chamo João Túlio, sou técnico em informática com uma grande paixão por programação. Sou apaixonado por entregar soluções que agregam na vida das pessoas e ao mesmo tempo me desafiam. Aprimorei minhas habilidades como desenvolvedor Front-End e Back-End</p>
+          <p>
+            Aaditya Prakash is currently an undergraduate student, pursuing his 3rd year in Bachelors of Electronics & Communications Engineering from National Institute of Technology, Warangal (NITW)
+          </p>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInRight" delay={0.4 * 1000} style={{marginTop: "2rem", marginBottom: "2rem"}}>
 
-          <p>Desenvolvo sites e aplicações utilizando HTML, CSS, e JavaScript. Tenho familiaridade em desenvolver layouts que me fornecem. Estou sempre me aprimorando a cada projeto que colocam em minhas mãos.</p>
+          <p>
+            He has published 3 mobile games, lead the teams on one of the games.
+          </p>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInRight" delay={0.6 * 1000}>
 
-          <p>Sou uma pessoa dedicada que corre atrás para realizar seus sonhos, trabalhador e orientado a resultados, sempre busco alcançar minha melhor versão.</p>
+          <p>
+            He’s also built TTL Logic based circuits, and is an active member in the Institute’s Robotics Club.
+          </p>
         </ScrollAnimation>
 
         <ScrollAnimation animateIn="fadeInRight" delay={0.7 * 1000}>
-          <h3>Aqui estão as minhas principais habilidades:</h3>
+          <h3>Tech-stacks :</h3>
         </ScrollAnimation>
         <div className="hard-skills">
           <Cpp/>

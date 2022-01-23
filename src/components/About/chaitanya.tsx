@@ -16,19 +16,25 @@ export function Chaitanya(props:any){
           <h2>Chaitanya Hardikar</h2>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInRight" delay={0.2 * 1000}>
-          <p>Me chamo João Túlio, sou técnico em informática com uma grande paixão por programação. Sou apaixonado por entregar soluções que agregam na vida das pessoas e ao mesmo tempo me desafiam. Aprimorei minhas habilidades como desenvolvedor Front-End e Back-End</p>
+          <p>
+            This is Chaitanya Hardikar, third year student from National Institute of Technology, Warangal pursuing B.Tech in Computer Science and Engineering.
+          </p>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInRight" delay={0.4 * 1000} style={{marginTop: "2rem", marginBottom: "2rem"}}>
 
-          <p>Desenvolvo sites e aplicações utilizando HTML, CSS, e JavaScript. Tenho familiaridade em desenvolver layouts que me fornecem. Estou sempre me aprimorando a cada projeto que colocam em minhas mãos.</p>
+          <p>
+            Well-versed in backend Django Frameworks, HTML/CSS and interested in Machine Learning. He also is a competitive coder who practices regularly on Codeforces and Codechef.
+          </p>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInRight" delay={0.6 * 1000}>
 
-          <p>Sou uma pessoa dedicada que corre atrás para realizar seus sonhos, trabalhador e orientado a resultados, sempre busco alcançar minha melhor versão.</p>
+          <p>
+            Currently, a Senior Developer in WSDC NITW, a Joint Secretary at CSE Association NITW, and a member of Nevronas-IG team.
+          </p>
         </ScrollAnimation>
 
         <ScrollAnimation animateIn="fadeInRight" delay={0.7 * 1000}>
-          <h3>Aqui estão as minhas principais habilidades:</h3>
+          <h3>Tech-stacks :</h3>
         </ScrollAnimation>
         <div className="hard-skills">
           <Cpp/>
