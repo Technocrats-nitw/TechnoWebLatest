@@ -1,5 +1,5 @@
 import React from "react";
-import TechnocratsImg from "./../../assets/purple.svg";
+import TechnocratsImg from "./../../assets/technocrats.svg";
 import { Container } from "./styles"
 import ScrollAnimation from "react-animate-on-scroll"
 
@@ -8,11 +8,8 @@ import ScrollAnimation from "react-animate-on-scroll"
 export function Intro(){
   return(
     <Container id="home">
-      <ScrollAnimation animateIn="fadeInRight" delay={1*1000}>
-        <img src={TechnocratsImg} alt="Ilustração" width={2000} height={1000}/>
-      </ScrollAnimation>
-      
-      
+        <img src={TechnocratsImg} alt="Ilustração" height={500} className="center"/>
+        
     </Container>
   )
 }

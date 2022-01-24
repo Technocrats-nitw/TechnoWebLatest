@@ -3,7 +3,7 @@ import { Container } from './styles'
 import { BrowserRouter as Router } from 'react-router-dom'
 import { NavHashLink, HashLink } from 'react-router-hash-link'
 import { useState } from 'react'
-import TechnocratsImg from "./../../assets/purple.png";
+import TechnocratsImg from "./../../assets/technocrats.svg";
 
 
 
@@ -21,8 +21,7 @@ export function Header() {
 
   return (
     <Container className="header-fixed">
-      
-        <img src={TechnocratsImg} alt="Ilustração" height={500} width={500}/>
+    
       
       
       <Router>
