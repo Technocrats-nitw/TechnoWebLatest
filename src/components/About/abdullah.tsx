@@ -5,7 +5,7 @@ import ScrollAnimation from "react-animate-on-scroll";
 import { Cpp, Matlab, Python, Ros, Solidworks, Tf } from "../Icons/Icons";
 import linkedinIcon from '../../assets/linkedin.png'
 import githubIcon from '../../assets/github.png'
-
+import abdullahImg from "../../assets/abdullah.jpeg";
 
 
 export function Abdullah(props:any){
@@ -13,7 +13,7 @@ export function Abdullah(props:any){
     <Container id="about">
     <div className="about-image">
         <ScrollAnimation animateIn="fadeInRight" delay={0.6 * 1000}>
-          <img src="https://media-exp1.licdn.com/dms/image/C5103AQHUR3_ddGN-WQ/profile-displayphoto-shrink_800_800/0/1578214705767?e=1648080000&v=beta&t=jeNpvitWoOpZLrOcrLVItXiRHOLUVykcP69X0QIoVYk" alt="Imagem de perfil" />
+          <img src={abdullahImg} alt="Shaik Abdullah" />
         </ScrollAnimation>
 
       </div>

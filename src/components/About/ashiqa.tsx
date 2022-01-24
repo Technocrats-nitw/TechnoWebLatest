@@ -4,6 +4,7 @@ import { Container } from "./styles";
 import ScrollAnimation from "react-animate-on-scroll";
 import linkedinIcon from '../../assets/linkedin.png'
 import githubIcon from '../../assets/github.png'
+import anshiqaImg from "../../assets/ashiqa.jpeg";
 
 export function Ashiqa(props:any){
   return(
@@ -11,7 +12,7 @@ export function Ashiqa(props:any){
 
       <div className="about-image">
         <ScrollAnimation animateIn="fadeInRight" delay={0.6 * 1000}>
-          <img src="https://media-exp1.licdn.com/dms/image/C5603AQEzchJN8eSGZw/profile-displayphoto-shrink_800_800/0/1600805274387?e=1648080000&v=beta&t=zBFtGGh-a9k9UCSBQFEu6u4ZxSyuWciGrcs8IlJ1miI" alt="Ashiqa Rahman" />
+          <img src={anshiqaImg} alt="Ashiqa Rahman" />
         </ScrollAnimation>
 
       </div>

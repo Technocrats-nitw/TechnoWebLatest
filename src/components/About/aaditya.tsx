@@ -5,7 +5,7 @@ import ScrollAnimation from "react-animate-on-scroll";
 import { Cpp, Matlab, Python, Rust, Unity } from "../Icons/Icons";
 import linkedinIcon from '../../assets/linkedin.png'
 import githubIcon from '../../assets/github.png'
-
+import aadiImg from "../../assets/aaditya.jpeg";
 
 
 export function Aaditya(props:any){
@@ -70,7 +70,7 @@ export function Aaditya(props:any){
       </div>
       <div className="about-image">
         <ScrollAnimation animateIn="fadeInLeft" delay={0.6 * 1000}>
-          <img src="https://media-exp1.licdn.com/dms/image/C5103AQEpMaSKg0TwGA/profile-displayphoto-shrink_800_800/0/1587224943645?e=1648080000&v=beta&t=e6T7v-GzoAefwJnlTNXZnEFhup5ogbHNvdxU4VvAQ58" alt="Imagem de perfil" />
+          <img src={aadiImg} alt="Aaditya" />
         </ScrollAnimation>
       </div>
       

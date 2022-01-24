@@ -7,6 +7,8 @@ import linkedinIcon from '../../assets/linkedin.png'
 import githubIcon from '../../assets/github.png'
 import anshuImg from "../../assets/anshuman.jpeg";
 
+ 
+
 export function Anshuman(props:any){
   return(
     <Container id="about">
@@ -15,17 +17,21 @@ export function Anshuman(props:any){
           <h2>Anshuman Mishra</h2>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInRight" delay={0.2 * 1000}>
-          <p>Me chamo João Túlio, sou técnico em informática com uma grande paixão por programação. Sou apaixonado por entregar soluções que agregam na vida das pessoas e ao mesmo tempo me desafiam. Aprimorei minhas habilidades como desenvolvedor Front-End e Back-End</p>
+          <p>Anshuman Mishra is Electronics Engineering student at NIT Warangal. Although enrolled in an Electronics course he is more interested in bleeding edge softwares , frameworks .</p>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInRight" delay={0.4 * 1000} style={{marginTop: "2rem", marginBottom: "2rem"}}>
 
-          <p>Desenvolvo sites e aplicações utilizando HTML, CSS, e JavaScript. Tenho familiaridade em desenvolver layouts que me fornecem. Estou sempre me aprimorando a cada projeto que colocam em minhas mãos.</p>
+          <p> His skill
+areas range from App developement to Deep Learning and Web Developement. He is fond of being busy with working on amazing project ideas. Often gets his hands 
+dirty , implementing research paper on natural language processing , especially transformers.</p>
         </ScrollAnimation>
+
+        <br/>
         <ScrollAnimation animateIn="fadeInRight" delay={0.6 * 1000}>
-
-          <p>Sou uma pessoa dedicada que corre atrás para realizar seus sonhos, trabalhador e orientado a resultados, sempre busco alcançar minha melhor versão.</p>
+          <p>He has amazing project management and ideation skills being one of #The_Original_Six_of_Technocrats.He is well versed with 9 Programming Languages.</p>
         </ScrollAnimation>
 
+        
         <ScrollAnimation animateIn="fadeInRight" delay={0.7 * 1000}>
           <h3>Expertise:</h3>
         </ScrollAnimation>
@@ -66,6 +72,12 @@ export function Anshuman(props:any){
 
         </div>
 
+        <br/>
+        <ScrollAnimation animateIn="fadeInRight" delay={0.6 * 1000}>
+          <p>He is Expert@Codeforces. His has been handling the post of Additional Secretary at Big Data Analytics and Consulting Cell since 1.5 years, apart from being a student researcher at Nevronas.</p>
+        </ScrollAnimation>
+
+     
       </div>
 
 
