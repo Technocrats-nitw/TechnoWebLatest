@@ -20,20 +20,7 @@ export function Intro(){
         <br/>
 
         <br/>
-        <br/>
-        <br/>
 
-        <br/>
-        <br/>
-        <br/>
-
-        <br/>
-        <br/>
-        <br/>
-
-        <br/>
-        <br/>
-        <br/>
       </div>
     </Container>
   )
