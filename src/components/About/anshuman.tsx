@@ -74,7 +74,7 @@ dirty , implementing research paper on natural language processing , especially 
 
         <br/>
         <ScrollAnimation animateIn="fadeInRight" delay={0.6 * 1000}>
-          <p>He is Expert@Codeforces. His has been handling the post of Additional Secretary at Big Data Analytics and Consulting Cell since 1.5 years, apart from being a student researcher at Nevronas.</p>
+          <p>He is Expert@Codeforces. He has been handling the post of Additional Secretary at Big Data Analytics and Consulting Cell since 1.5 years, apart from being a student researcher at Nevronas.</p>
         </ScrollAnimation>
 
      
