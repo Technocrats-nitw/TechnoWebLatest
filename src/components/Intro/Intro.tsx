@@ -1,15 +1,12 @@
 import React from "react";
-import TechnocratsImg from "./../../assets/technocrats.svg";
+import TechnocratsImg from "./../../assets/purple.svg";
 import { Container } from "./styles"
-import ScrollAnimation from "react-animate-on-scroll"
-
 
 
 export function Intro(){
   return(
-    <Container id="home">
-        <img src={TechnocratsImg} alt="Ilustração" height={500} className="center"/>
-        
+    <Container id="home">      
+      <img src={TechnocratsImg} alt="Ilustração" className="center" height={500}/>
     </Container>
   )
 }
