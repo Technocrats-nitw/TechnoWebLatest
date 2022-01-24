@@ -1,12 +1,40 @@
 import React from "react";
-import TechnocratsImg from "./../../assets/purple.svg";
+
+import ScrollAnimation from "react-animate-on-scroll"
 import { Container } from "./styles"
 
 
 export function Intro(){
   return(
     <Container id="home">      
-      <img src={TechnocratsImg} alt="Ilustração" className="center" height={500}/>
+      <div className="hero-text">
+        <ScrollAnimation animateIn="fadeInUp" delay={0.2*1000}>
+          <h1>Technocrats Labs</h1>
+        </ScrollAnimation>
+        <ScrollAnimation animateIn="fadeInUp" delay={0.4 * 1000}>
+          <h3>The Six Sages of Developement</h3>
+        </ScrollAnimation>
+        
+        <br/>
+        <br/>
+        <br/>
+
+        <br/>
+        <br/>
+        <br/>
+
+        <br/>
+        <br/>
+        <br/>
+
+        <br/>
+        <br/>
+        <br/>
+
+        <br/>
+        <br/>
+        <br/>
+      </div>
     </Container>
   )
 }

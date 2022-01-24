@@ -3,7 +3,7 @@ import { Container } from './styles'
 import { BrowserRouter as Router } from 'react-router-dom'
 import { NavHashLink, HashLink } from 'react-router-hash-link'
 import { useState } from 'react'
-
+import TechnocratsImg from "./../../assets/technocrats.svg";
 
 export function Header() {
   const [isActive, setActive] = useState(false)
@@ -20,16 +20,9 @@ export function Header() {
   return (
     <Container className="header-fixed">
     
-      <h3>Tehcnorats Labs</h3>  
+    <img src={TechnocratsImg} alt="Ilustração" height={100}/>
       
       <Router>
-        <input
-          onChange={toggleTheme}
-          className="container_toggle"
-          type="checkbox"
-          id="switch"
-          name="mode"
-        />
         
 
         <nav className={isActive ? 'active' : ''}>
