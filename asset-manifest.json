@@ -1,19 +1,21 @@
 {
   "files": {
-    "main.js": "/web/static/js/main.148685fb.chunk.js",
-    "main.js.map": "/web/static/js/main.148685fb.chunk.js.map",
+    "main.js": "/web/static/js/main.64340f9b.chunk.js",
+    "main.js.map": "/web/static/js/main.64340f9b.chunk.js.map",
     "runtime-main.js": "/web/static/js/runtime-main.33aab821.js",
     "runtime-main.js.map": "/web/static/js/runtime-main.33aab821.js.map",
     "static/css/2.b8803beb.chunk.css": "/web/static/css/2.b8803beb.chunk.css",
-    "static/js/2.aec8a799.chunk.js": "/web/static/js/2.aec8a799.chunk.js",
-    "static/js/2.aec8a799.chunk.js.map": "/web/static/js/2.aec8a799.chunk.js.map",
+    "static/js/2.d4a4974e.chunk.js": "/web/static/js/2.d4a4974e.chunk.js",
+    "static/js/2.d4a4974e.chunk.js.map": "/web/static/js/2.d4a4974e.chunk.js.map",
     "index.html": "/web/index.html",
-    "precache-manifest.4d96111a6dad3f98a9168ea88aa4117f.js": "/web/precache-manifest.4d96111a6dad3f98a9168ea88aa4117f.js",
+    "precache-manifest.03272ee73738c644093c29895e2746a1.js": "/web/precache-manifest.03272ee73738c644093c29895e2746a1.js",
     "service-worker.js": "/web/service-worker.js",
     "static/css/2.b8803beb.chunk.css.map": "/web/static/css/2.b8803beb.chunk.css.map",
-    "static/js/2.aec8a799.chunk.js.LICENSE.txt": "/web/static/js/2.aec8a799.chunk.js.LICENSE.txt",
+    "static/js/2.d4a4974e.chunk.js.LICENSE.txt": "/web/static/js/2.d4a4974e.chunk.js.LICENSE.txt",
+    "static/media/aaditya.jpeg": "/web/static/media/aaditya.50ea0938.jpeg",
+    "static/media/abdullah.jpeg": "/web/static/media/abdullah.3303e33a.jpeg",
     "static/media/android-tile.svg": "/web/static/media/android-tile.a1f657a2.svg",
-    "static/media/anshuman.jpeg": "/web/static/media/anshuman.4d4e5c0c.jpeg",
+    "static/media/anshuman.jpeg": "/web/static/media/anshuman.31280453.jpeg",
     "static/media/ashiqa.jpeg": "/web/static/media/ashiqa.5d8b5886.jpeg",
     "static/media/chaitanya.jpeg": "/web/static/media/chaitanya.c166411b.jpeg",
     "static/media/cpp.svg": "/web/static/media/cpp.aed4bade.svg",
@@ -24,7 +26,6 @@
     "static/media/folder.svg": "/web/static/media/folder.b850673a.svg",
     "static/media/github.png": "/web/static/media/github.d22ee372.png",
     "static/media/html-icon.svg": "/web/static/media/html-icon.c83aaf39.svg",
-    "static/media/illustration.svg": "/web/static/media/illustration.4dcd022f.svg",
     "static/media/js-icon.svg": "/web/static/media/js-icon.dc2fc5be.svg",
     "static/media/linkedin.png": "/web/static/media/linkedin.d492efc7.png",
     "static/media/matlab.svg": "/web/static/media/matlab.0d4885d4.svg",
@@ -39,6 +40,7 @@
     "static/media/selenium.svg": "/web/static/media/selenium.f91a3a88.svg",
     "static/media/solidworks.svg": "/web/static/media/solidworks.45c6effa.svg",
     "static/media/sufiyan.jpeg": "/web/static/media/sufiyan.2d214e3f.jpeg",
+    "static/media/technocrats.svg": "/web/static/media/technocrats.5b11dd02.svg",
     "static/media/tensorflow-icon.svg": "/web/static/media/tensorflow-icon.3766283c.svg",
     "static/media/typescript-icon.svg": "/web/static/media/typescript-icon.9e8bfce4.svg",
     "static/media/unity3d-icon.svg": "/web/static/media/unity3d-icon.8ef0a4ee.svg",
@@ -47,7 +49,7 @@
   "entrypoints": [
     "static/js/runtime-main.33aab821.js",
     "static/css/2.b8803beb.chunk.css",
-    "static/js/2.aec8a799.chunk.js",
-    "static/js/main.148685fb.chunk.js"
+    "static/js/2.d4a4974e.chunk.js",
+    "static/js/main.64340f9b.chunk.js"
   ]
 }

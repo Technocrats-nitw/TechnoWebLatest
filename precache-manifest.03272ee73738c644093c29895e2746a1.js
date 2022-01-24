@@ -1,35 +1,43 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "61179d2bbe686511c3183ab5c2ccee1b",
+    "revision": "253bd44e6ae8cc0f23e871f933d270b1",
     "url": "/web/index.html"
   },
   {
-    "revision": "b9531207e6cd8780466d",
+    "revision": "3d78d9c42ab8954cbe3a",
     "url": "/web/static/css/2.b8803beb.chunk.css"
   },
   {
-    "revision": "b9531207e6cd8780466d",
-    "url": "/web/static/js/2.aec8a799.chunk.js"
+    "revision": "3d78d9c42ab8954cbe3a",
+    "url": "/web/static/js/2.d4a4974e.chunk.js"
   },
   {
     "revision": "b219684b902eec60901f2778133c6c5f",
-    "url": "/web/static/js/2.aec8a799.chunk.js.LICENSE.txt"
+    "url": "/web/static/js/2.d4a4974e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "7ad96964dd7ef2f8d2ce",
-    "url": "/web/static/js/main.148685fb.chunk.js"
+    "revision": "01b20a40932fb0b0e2ed",
+    "url": "/web/static/js/main.64340f9b.chunk.js"
   },
   {
     "revision": "8611874e5ec2c1d8dab0",
     "url": "/web/static/js/runtime-main.33aab821.js"
   },
   {
+    "revision": "50ea09380f1769731962067b06f056b1",
+    "url": "/web/static/media/aaditya.50ea0938.jpeg"
+  },
+  {
+    "revision": "3303e33a46451394490f89f1b438cc41",
+    "url": "/web/static/media/abdullah.3303e33a.jpeg"
+  },
+  {
     "revision": "a1f657a29a74d01a752f8bfa021c3797",
     "url": "/web/static/media/android-tile.a1f657a2.svg"
   },
   {
-    "revision": "4d4e5c0c109d6fbceac0e2985f96d961",
-    "url": "/web/static/media/anshuman.4d4e5c0c.jpeg"
+    "revision": "31280453bc78d243962e9dba296a5e1c",
+    "url": "/web/static/media/anshuman.31280453.jpeg"
   },
   {
     "revision": "5d8b5886f34081669bf63775efd6a278",
@@ -70,10 +78,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "c83aaf3930796623cdbf82ca002d7005",
     "url": "/web/static/media/html-icon.c83aaf39.svg"
-  },
-  {
-    "revision": "4dcd022f78e2cc210e656f5bd81c89db",
-    "url": "/web/static/media/illustration.4dcd022f.svg"
   },
   {
     "revision": "dc2fc5be0984077b3b0fce8c0b8f045a",
@@ -130,6 +134,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "2d214e3f355ab73783660de31348604f",
     "url": "/web/static/media/sufiyan.2d214e3f.jpeg"
+  },
+  {
+    "revision": "5b11dd0243ea6fa21b3d4e519f2b8c27",
+    "url": "/web/static/media/technocrats.5b11dd02.svg"
   },
   {
     "revision": "3766283c45d537cea7708ea7eafffab2",
