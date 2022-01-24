@@ -4,14 +4,15 @@ import { Container } from "./styles";
 import ScrollAnimation from "react-animate-on-scroll";
 import linkedinIcon from '../../assets/linkedin.png'
 import githubIcon from '../../assets/github.png'
+import ashImg from "../../assets/ashiqa.jpeg";
 
 export function Ashiqa(props:any){
   return(
     <Container id="about">
 
-      <div className="about-image">
-        <ScrollAnimation animateIn="fadeInRight" delay={0.6 * 1000}>
-          <img src="https://media-exp1.licdn.com/dms/image/C5603AQEzchJN8eSGZw/profile-displayphoto-shrink_800_800/0/1600805274387?e=1648080000&v=beta&t=zBFtGGh-a9k9UCSBQFEu6u4ZxSyuWciGrcs8IlJ1miI" alt="Ashiqa Rahman" />
+       <div className="about-image">
+        <ScrollAnimation animateIn="fadeInLeft" delay={0.6 * 1000}>
+          <img src={ashImg} alt="Ashiqa Rahman" />
         </ScrollAnimation>
 
       </div>
@@ -20,19 +21,22 @@ export function Ashiqa(props:any){
           <h2>Ashiqa Rahman</h2>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.2 * 1000}>
-          <p>Me chamo João Túlio, sou técnico em informática com uma grande paixão por programação. Sou apaixonado por entregar soluções que agregam na vida das pessoas e ao mesmo tempo me desafiam. Aprimorei minhas habilidades como desenvolvedor Front-End e Back-End</p>
+          <p>She is a pre-final year studying Computer Science Engineering at NITW and a summer SDE intern at Amazon.</p>
         </ScrollAnimation>
-        <ScrollAnimation animateIn="fadeInLeft" delay={0.4 * 1000} style={{marginTop: "2rem", marginBottom: "2rem"}}>
 
-          <p>Desenvolvo sites e aplicações utilizando HTML, CSS, e JavaScript. Tenho familiaridade em desenvolver layouts que me fornecem. Estou sempre me aprimorando a cada projeto que colocam em minhas mãos.</p>
+        <ScrollAnimation animateIn="fadeInRight" delay={0.4 * 1000} style={{marginTop: "2rem", marginBottom: "2rem"}}>
+          <p>
+          Proficient at cross-platform app development using flutter, web development with React and NodeJs, bot automation and web scraping using Python and Selenium.
+          </p>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.6 * 1000}>
-
-          <p>Sou uma pessoa dedicada que corre atrás para realizar seus sonhos, trabalhador e orientado a resultados, sempre busco alcançar minha melhor versão.</p>
+          <p>
+            She has participated in hackathons and is an active member of TEDx and CybSec community.
+          </p>
         </ScrollAnimation>
 
         <ScrollAnimation animateIn="fadeInLeft" delay={0.7 * 1000}>
-          <h3>Aqui estão as minhas principais habilidades:</h3>
+          <h3>Tech Stack:</h3>
         </ScrollAnimation>
         <div className="hard-skills">
           <Cpp/>
