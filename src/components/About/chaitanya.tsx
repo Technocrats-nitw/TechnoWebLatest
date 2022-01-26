@@ -1,8 +1,8 @@
 import React from "react";
-import { Container } from "./styles";
+import { Container } from "../styles/about";
 
 import ScrollAnimation from "react-animate-on-scroll";
-import { Cpp, Css, Django, HTML, Js, Mysql, Python, Tf } from "../Icons/Icons";
+import { Cpp, Css, Django, HTML, Js, Mysql, Python, Tf } from "../Icons";
 import chaitanyaImg from "../../assets/chaitanya.jpeg";
 import linkedinIcon from '../../assets/linkedin.png'
 import githubIcon from '../../assets/github.png'
