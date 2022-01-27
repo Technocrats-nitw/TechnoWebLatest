@@ -4,6 +4,7 @@ import ScrollAnimation from "react-animate-on-scroll";
 import { Css, Django, Flutter, Js, Python, Tf, Torch, Unity } from "../components/Icons";
 
 
+
 function Projects(){
   return(
     <Container id="projects">
@@ -11,7 +12,7 @@ function Projects(){
 
       <div className="projects">
 
-      <ScrollAnimation animateIn="flipInX">
+      <ScrollAnimation  animateOnce={true} animateIn="flipInX">
         <div className="project">
           <div className="body">
             <h3>GoVID</h3>
@@ -36,7 +37,7 @@ function Projects(){
         </div>
       </ScrollAnimation>
 
-        <ScrollAnimation animateIn="flipInX">
+        <ScrollAnimation  animateOnce={true} animateIn="flipInX">
           <div className="project">
             <div className="body">
               <h3>Voctor 2.0</h3>
@@ -50,7 +51,7 @@ function Projects(){
           </div>
         </ScrollAnimation>
 
-        <ScrollAnimation animateIn="flipInX">
+        <ScrollAnimation  animateOnce={true} animateIn="flipInX">
           <div className="project">
             <div className="body">
               <h3>TalkAR</h3>
@@ -73,11 +74,11 @@ function Projects(){
           </div>
         </ScrollAnimation>
 
-        <ScrollAnimation animateIn="flipInX">
+        <ScrollAnimation  animateOnce={true} animateIn="flipInX">
           <div className="project">
             <div className="body">
               <h3>Hactoberfest 2021</h3>
-              <p>Maintened a Repository Open to Contribution
+              <p>Maintained a Repository Open to Contribution
               </p>
             </div>
             <footer>
@@ -89,7 +90,7 @@ function Projects(){
           </div>
         </ScrollAnimation>
 
-        <ScrollAnimation animateIn="flipInX">
+        <ScrollAnimation  animateOnce={true} animateIn="flipInX">
           <div className="project">
             <div className="body">
               <h3>PyDobot M1</h3>
@@ -107,7 +108,7 @@ function Projects(){
           </div>
         </ScrollAnimation>
 
-        <ScrollAnimation animateIn="flipInX">
+        <ScrollAnimation  animateOnce={true} animateIn="flipInX">
           <div className="project">
             <div className="body">
               <h3>Connect</h3>
@@ -129,7 +130,7 @@ function Projects(){
         </ScrollAnimation>
 
 
-        <ScrollAnimation animateIn="flipInX">
+        <ScrollAnimation  animateOnce={true} animateIn="flipInX">
           <div className="project">
             <div className="body">
               <h3>UNiT</h3>
