@@ -1,11 +1,11 @@
 import React from "react";
-import { Container } from "../styles/about";
+import { Container } from "../../assets/styles/about";
 
 import ScrollAnimation from "react-animate-on-scroll";
 import { Android, Cpp, Django, Flutter, HTML, Js, Nodejs, Python, REACT, Tf, Torch } from "../Icons";
-import linkedinIcon from '../../assets/linkedin.png'
-import githubIcon from '../../assets/github.png'
-import anshuImg from "../../assets/anshuman.jpeg";
+import linkedinIcon from '../../assets/icons/linkedin.png'
+import githubIcon from '../../assets/icons/github.png'
+import anshuImg from "../../assets/images/anshuman.jpeg";
 
  
 

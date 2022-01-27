@@ -1,11 +1,11 @@
 import React from "react";
-import { Container } from "../styles/about";
+import { Container } from "../../assets/styles/about";
 
 import ScrollAnimation from "react-animate-on-scroll";
 import { Cpp, Css, Django, HTML, Js, Mongo, Mysql, Nodejs, Python, REACT, Typescript } from "../Icons";
-import SufiyanImg from "../../assets/sufiyan.jpeg";
-import linkedinIcon from '../../assets/linkedin.png'
-import githubIcon from '../../assets/github.png'
+import SufiyanImg from "../../assets/images/sufiyan.jpeg";
+import linkedinIcon from '../../assets/icons/linkedin.png'
+import githubIcon from '../../assets/icons/github.png'
 
 
 export function Sufiyan(){

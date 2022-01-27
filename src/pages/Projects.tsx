@@ -1,5 +1,5 @@
 import React from "react";
-import { Container } from "../components/styles/projects";
+import { Container } from "../assets/styles/projects";
 import ScrollAnimation from "react-animate-on-scroll";
 import { Css, Django, Flutter, Js, Python, Tf, Torch, Unity } from "../components/Icons";
 

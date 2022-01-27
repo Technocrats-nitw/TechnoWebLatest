@@ -1,6 +1,6 @@
 import React from "react";
 import ScrollAnimation from "react-animate-on-scroll"
-import './styles/testimonial.css'
+import '../assets/styles/testimonial.css'
 import TestimonialCards from "./testimonial-cards"
 
 // add like this here 
@@ -15,6 +15,7 @@ const testimonials = [
         college: '<Value>'
 
     },
+
     // {
     //     name: 'Sufiyan Ansari',
     //     img: 'https://avatars.githubusercontent.com/u/28235081?v=4',
@@ -67,14 +68,7 @@ function Testimonial(){
             }
             var direction = index%2 === 0 ? 'left' : 'right';
               return(
-                  <TestimonialCards 
-                          name={item.name} 
-                          title={item.title} 
-                          img={item.img} 
-                          college={item.college}
-                          testimonial = {item.testimonial}
-                          direction = {direction}
-                          />
+                  <TestimonialCards item = {item} direction = {direction} />
               )
         })}          
       </div>

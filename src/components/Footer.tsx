@@ -1,11 +1,11 @@
 import React from "react";
-import { Container } from './styles/footer'
+import { Container } from '../assets/styles/footer'
 
-import reactIcon from './../assets/react-icon.svg'
-import linkedinIcon from './../assets/linkedin.png'
-import githubIcon from './../assets/github.png'
-import youtubeIcon from './../assets/youtube.svg'
-import twitterIcon from './../assets/twitter.png'
+import reactIcon from './../assets/icons/react-icon.svg'
+import linkedinIcon from './../assets/icons/linkedin.png'
+import githubIcon from './../assets/icons/github.png'
+import youtubeIcon from './../assets/icons/youtube.svg'
+import twitterIcon from './../assets/icons/twitter.png'
 
 export function Footer() {
   return (
