@@ -21,7 +21,6 @@ function App() {
           <Route path="/web" element={<Intro/>}/>
           <Route path="/team" element={<Team/>}/>
           <Route path="/projects" element={<Projects/>}/>
-          <Route path="/getInTouch" element={<Team/>}/>
       </Routes>
       </Container>
       </Router>
