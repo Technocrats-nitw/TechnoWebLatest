@@ -60,7 +60,7 @@ function Testimonial(){
           <h1 id="happycustomer">Our Happy Clients</h1>
         </div>
         </ScrollAnimation>
-        <div style={{width: '100vh', margin: '2% auto 0 auto', paddingTop: '80px', paddingBottom: '80px'}}> 
+        <div style={{maxWidth: '100vh', margin: '2% auto 0 auto', paddingTop: '80px', paddingBottom: '80px'}}> 
           {testimonials.map((item, index) => {
               if(index === 0) {
                   return <></>
