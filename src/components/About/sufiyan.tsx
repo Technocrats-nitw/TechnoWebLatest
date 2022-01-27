@@ -12,35 +12,35 @@ export function Sufiyan(){
   return(
     <Container id="about">
       <div className="about-image">
-        <ScrollAnimation animateIn="fadeInRight" delay={0.6 * 1000}>
+        <ScrollAnimation animateOnce={true} animateIn="fadeInRight" delay={0.6 * 1000}>
           <img src={SufiyanImg} alt="Sufiyan Ansari" />
         </ScrollAnimation>
 
       </div>
 
       <div className="about-text">
-        <ScrollAnimation animateIn="fadeInLeft">
+        <ScrollAnimation animateOnce={true} animateIn="fadeInLeft">
           <h2>Mohd. Sufiyan Ansari</h2>
         </ScrollAnimation>
-        <ScrollAnimation animateIn="fadeInLeft" delay={0.2 * 1000}>
+        <ScrollAnimation animateOnce={true} animateIn="fadeInLeft" delay={0.2 * 1000}>
           <p>
             This is Mohd Sufiyan Ansari, currently a pre-final year student at National Institute of Technology, Warangal.
           </p>
         </ScrollAnimation>
-        <ScrollAnimation animateIn="fadeInLeft" delay={0.4 * 1000} style={{marginTop: "2rem", marginBottom: "2rem"}}>
+        <ScrollAnimation animateOnce={true} animateIn="fadeInLeft" delay={0.4 * 1000} style={{marginTop: "2rem", marginBottom: "2rem"}}>
 
           <p>
             Proficient at Backend Development using Django / ExpressJS+NodeJS, he has built numerous websites and won hackathons.
           </p>
         </ScrollAnimation>
-        <ScrollAnimation animateIn="fadeInLeft" delay={0.6 * 1000}>
+        <ScrollAnimation animateOnce={true} animateIn="fadeInLeft" delay={0.6 * 1000}>
 
           <p>
             Presently a Senior Developer in WSDC NITW and Joint Secretary at CSE Association, NITW.
           </p>
         </ScrollAnimation>
 
-        <ScrollAnimation animateIn="fadeInLeft" delay={0.7 * 1000}>
+        <ScrollAnimation animateOnce={true} animateIn="fadeInLeft" delay={0.7 * 1000}>
           <h3>Tech-stacks :</h3>
         </ScrollAnimation>
 
@@ -57,7 +57,7 @@ export function Sufiyan(){
           <Typescript/>
           <Python/>
         </div>
-        <ScrollAnimation animateIn="fadeInRight" delay={0.7 * 1000}>
+        <ScrollAnimation animateOnce={true} animateIn="fadeInRight" delay={0.7 * 1000}>
           <h3>Social Urls :</h3>
         </ScrollAnimation>
 

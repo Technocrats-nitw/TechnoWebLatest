@@ -12,28 +12,28 @@ export function Aaditya(props:any){
   return(
     <Container id="about">
       <div className="about-text">
-        <ScrollAnimation animateIn="fadeInRight">
+        <ScrollAnimation animateOnce={true} animateIn="fadeInRight">
           <h2>Aaditya Prakash Kattekola</h2>
         </ScrollAnimation>
-        <ScrollAnimation animateIn="fadeInRight" delay={0.2 * 1000}>
+        <ScrollAnimation animateOnce={true} animateIn="fadeInRight" delay={0.2 * 1000}>
           <p>
             Aaditya Prakash is currently an undergraduate student, pursuing his 3rd year in Bachelors of Electronics & Communications Engineering from National Institute of Technology, Warangal (NITW)
           </p>
         </ScrollAnimation>
-        <ScrollAnimation animateIn="fadeInRight" delay={0.4 * 1000} style={{marginTop: "2rem", marginBottom: "2rem"}}>
+        <ScrollAnimation animateOnce={true} animateIn="fadeInRight" delay={0.4 * 1000} style={{marginTop: "2rem", marginBottom: "2rem"}}>
 
           <p>
             He has published 3 mobile games, lead the teams on one of the games.
           </p>
         </ScrollAnimation>
-        <ScrollAnimation animateIn="fadeInRight" delay={0.6 * 1000}>
+        <ScrollAnimation animateOnce={true} animateIn="fadeInRight" delay={0.6 * 1000}>
 
           <p>
             He’s also built TTL Logic based circuits, and is an active member in the Institute’s Robotics Club.
           </p>
         </ScrollAnimation>
 
-        <ScrollAnimation animateIn="fadeInRight" delay={0.7 * 1000}>
+        <ScrollAnimation animateOnce={true} animateIn="fadeInRight" delay={0.7 * 1000}>
           <h3>Tech-stacks :</h3>
         </ScrollAnimation>
         <div className="hard-skills">
@@ -44,7 +44,7 @@ export function Aaditya(props:any){
           <Python/>
       </div>
 
-      <ScrollAnimation animateIn="fadeInRight" delay={0.7 * 1000}>
+      <ScrollAnimation animateOnce={true} animateIn="fadeInRight" delay={0.7 * 1000}>
           <h3>Social Urls :</h3>
         </ScrollAnimation>
 
@@ -69,7 +69,7 @@ export function Aaditya(props:any){
 
       </div>
       <div className="about-image">
-        <ScrollAnimation animateIn="fadeInLeft" delay={0.6 * 1000}>
+        <ScrollAnimation animateOnce={true} animateIn="fadeInLeft" delay={0.6 * 1000}>
           <img src={aadiImg} alt="Aaditya" />
         </ScrollAnimation>
       </div>
