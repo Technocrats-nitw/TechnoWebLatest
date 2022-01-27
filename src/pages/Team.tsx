@@ -22,11 +22,11 @@ function Team(){
         <br/>
 
         <br/>
-        <ScrollAnimation animateIn="fadeInUp" delay={0.2*1000}>
+        <ScrollAnimation animateIn="fadeInUp" delay={0.2*1000} animateOnce={true}>
           <h1>Technocrats - The Team</h1>
         </ScrollAnimation>
 
-        <ScrollAnimation animateIn="fadeInUp" delay={0.4 * 1000}>
+        <ScrollAnimation animateIn="fadeInUp" delay={0.4 * 1000} animateOnce={true}>
           <h3>Meet The Original Six Of Technocrats</h3>
         </ScrollAnimation>
         
