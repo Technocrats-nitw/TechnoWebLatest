@@ -12,28 +12,28 @@ export function Chaitanya(props:any){
   return(
     <Container id="about">
       <div className="about-text">
-        <ScrollAnimation animateIn="fadeInRight">
+        <ScrollAnimation animateOnce={true} animateIn="fadeInRight">
           <h2>Chaitanya Hardikar</h2>
         </ScrollAnimation>
-        <ScrollAnimation animateIn="fadeInRight" delay={0.2 * 1000}>
+        <ScrollAnimation animateOnce={true} animateIn="fadeInRight" delay={0.2 * 1000}>
           <p>
             This is Chaitanya Hardikar, third year student from National Institute of Technology, Warangal pursuing B.Tech in Computer Science and Engineering.
           </p>
         </ScrollAnimation>
-        <ScrollAnimation animateIn="fadeInRight" delay={0.4 * 1000} style={{marginTop: "2rem", marginBottom: "2rem"}}>
+        <ScrollAnimation animateOnce={true} animateIn="fadeInRight" delay={0.4 * 1000} style={{marginTop: "2rem", marginBottom: "2rem"}}>
 
           <p>
             Well-versed in backend Django Frameworks, HTML/CSS and interested in Machine Learning. He also is a competitive coder who practices regularly on Codeforces and Codechef.
           </p>
         </ScrollAnimation>
-        <ScrollAnimation animateIn="fadeInRight" delay={0.6 * 1000}>
+        <ScrollAnimation animateOnce={true} animateIn="fadeInRight" delay={0.6 * 1000}>
 
           <p>
             Currently, a Senior Developer in WSDC NITW, a Joint Secretary at CSE Association NITW, and a member of Nevronas-IG team.
           </p>
         </ScrollAnimation>
 
-        <ScrollAnimation animateIn="fadeInRight" delay={0.7 * 1000}>
+        <ScrollAnimation animateOnce={true} animateIn="fadeInRight" delay={0.7 * 1000}>
           <h3>Tech-stacks :</h3>
         </ScrollAnimation>
         <div className="hard-skills">
@@ -48,7 +48,7 @@ export function Chaitanya(props:any){
 
       </div>
 
-      <ScrollAnimation animateIn="fadeInRight" delay={0.7 * 1000}>
+      <ScrollAnimation animateOnce={true} animateIn="fadeInRight" delay={0.7 * 1000}>
           <h3>Social Urls :</h3>
         </ScrollAnimation>
 
@@ -73,7 +73,7 @@ export function Chaitanya(props:any){
 
       </div>
       <div className="about-image">
-        <ScrollAnimation animateIn="fadeInLeft" delay={0.6 * 1000}>
+        <ScrollAnimation animateOnce={true} animateIn="fadeInLeft" delay={0.6 * 1000}>
           <img src={chaitanyaImg} alt="Chaitanya Hardikar" />
         </ScrollAnimation>
 

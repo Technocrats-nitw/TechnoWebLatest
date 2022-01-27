@@ -12,34 +12,34 @@ export function Abdullah(props:any){
   return(
     <Container id="about">
     <div className="about-image">
-        <ScrollAnimation animateIn="fadeInRight" delay={0.6 * 1000}>
+        <ScrollAnimation animateOnce={true} animateIn="fadeInRight" delay={0.6 * 1000}>
           <img src={abdullahImg} alt="Shaik Abdullah" />
         </ScrollAnimation>
 
       </div>
       <div className="about-text">
-        <ScrollAnimation animateIn="fadeInLeft">
+        <ScrollAnimation animateOnce={true} animateIn="fadeInLeft">
           <h2>Shaik Abdullah</h2>
         </ScrollAnimation>
-        <ScrollAnimation animateIn="fadeInLeft" delay={0.2 * 1000}>
+        <ScrollAnimation animateOnce={true} animateIn="fadeInLeft" delay={0.2 * 1000}>
           <p>
             Shaik Abdullah is currently an undergraduate student, pursuing his 3rd year in Bachelors of Electrical and Electronics Engineering from National Institute of Technology, Warangal (NITW).
           </p>
         </ScrollAnimation>
-        <ScrollAnimation animateIn="fadeInLeft" delay={0.4 * 1000} style={{marginTop: "2rem", marginBottom: "2rem"}}>
+        <ScrollAnimation animateOnce={true} animateIn="fadeInLeft" delay={0.4 * 1000} style={{marginTop: "2rem", marginBottom: "2rem"}}>
 
           <p>
             His areas of interest is mainly Robotics. He has worked on several Robotic projects like Delivery Drones, Harvesting Autonomous Ground Vehicles (AGVs) and Object Recognition and Categorization Robotic Arms. He has internship experience at several companies working on waste segregating robotic arms, warehouse robots and so on. His current research is related to FWMAVs for Smart Agriculture and Stealth UAVs.
           </p>
         </ScrollAnimation>
-        <ScrollAnimation animateIn="fadeInLeft" delay={0.6 * 1000}>
+        <ScrollAnimation animateOnce={true} animateIn="fadeInLeft" delay={0.6 * 1000}>
 
           <p>
             He has experience with SLAM, Navigation, Kinematics of motion, etc.
           </p>
         </ScrollAnimation>
 
-        <ScrollAnimation animateIn="fadeInLeft" delay={0.7 * 1000}>
+        <ScrollAnimation animateOnce={true} animateIn="fadeInLeft" delay={0.7 * 1000}>
           <h3>
             Tech-stacks :
           </h3>
@@ -52,7 +52,7 @@ export function Abdullah(props:any){
           <Solidworks/>
           <Matlab/>
       </div>
-      <ScrollAnimation animateIn="fadeInRight" delay={0.7 * 1000}>
+      <ScrollAnimation animateOnce={true} animateIn="fadeInRight" delay={0.7 * 1000}>
           <h3>Social Urls :</h3>
         </ScrollAnimation>
 

@@ -11,31 +11,31 @@ export function Ashiqa(props:any){
     <Container id="about">
 
       <div className="about-image">
-        <ScrollAnimation animateIn="fadeInRight" delay={0.6 * 1000}>
+        <ScrollAnimation animateOnce={true} animateIn="fadeInRight" delay={0.6 * 1000}>
           <img src={anshiqaImg} alt="Ashiqa Rahman" />
         </ScrollAnimation>
 
       </div>
       <div className="about-text">
-        <ScrollAnimation animateIn="fadeInLeft">
+        <ScrollAnimation animateOnce={true} animateIn="fadeInLeft">
           <h2>Ashiqa Rahman</h2>
         </ScrollAnimation>
-        <ScrollAnimation animateIn="fadeInLeft" delay={0.2 * 1000}>
+        <ScrollAnimation animateOnce={true} animateIn="fadeInLeft" delay={0.2 * 1000}>
           <p>She is a pre-final year studying Computer Science Engineering at NITW and a summer SDE intern at Amazon.</p>
         </ScrollAnimation>
 
-        <ScrollAnimation animateIn="fadeInRight" delay={0.4 * 1000} style={{marginTop: "2rem", marginBottom: "2rem"}}>
+        <ScrollAnimation animateOnce={true} animateIn="fadeInRight" delay={0.4 * 1000} style={{marginTop: "2rem", marginBottom: "2rem"}}>
           <p>
           Proficient at cross-platform app development using flutter, web development with React and NodeJs, bot automation and web scraping using Python and Selenium.
           </p>
         </ScrollAnimation>
-        <ScrollAnimation animateIn="fadeInLeft" delay={0.6 * 1000}>
+        <ScrollAnimation animateOnce={true} animateIn="fadeInLeft" delay={0.6 * 1000}>
           <p>
             She has participated in hackathons and is an active member of TEDx and CybSec community.
           </p>
         </ScrollAnimation>
 
-        <ScrollAnimation animateIn="fadeInLeft" delay={0.7 * 1000}>
+        <ScrollAnimation animateOnce={true} animateIn="fadeInLeft" delay={0.7 * 1000}>
           <h3>Tech Stack:</h3>
         </ScrollAnimation>
         <div className="hard-skills">
@@ -54,7 +54,7 @@ export function Ashiqa(props:any){
           
         </div>
 
-        <ScrollAnimation animateIn="fadeInRight" delay={0.7 * 1000}>
+        <ScrollAnimation animateOnce={true} animateIn="fadeInRight" delay={0.7 * 1000}>
           <h3>Social Urls :</h3>
         </ScrollAnimation>
 

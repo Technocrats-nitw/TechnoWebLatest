@@ -13,13 +13,13 @@ export function Anshuman(props:any){
   return(
     <Container id="about">
       <div className="about-text">
-        <ScrollAnimation animateIn="fadeInRight">
+        <ScrollAnimation animateIn="fadeInRight" animateOnce={true}>
           <h2>Anshuman Mishra</h2>
         </ScrollAnimation>
-        <ScrollAnimation animateIn="fadeInRight" delay={0.2 * 1000}>
+        <ScrollAnimation animateIn="fadeInRight" delay={0.2 * 1000} animateOnce={true}>
           <p>Anshuman Mishra is Electronics Engineering student at NIT Warangal. Although enrolled in an Electronics course he is more interested in bleeding edge softwares , frameworks .</p>
         </ScrollAnimation>
-        <ScrollAnimation animateIn="fadeInRight" delay={0.4 * 1000} style={{marginTop: "2rem", marginBottom: "2rem"}}>
+        <ScrollAnimation animateIn="fadeInRight" delay={0.4 * 1000} style={{marginTop: "2rem", marginBottom: "2rem"}} animateOnce={true}>
 
           <p> His skill
 areas range from App developement to Deep Learning and Web Developement. He is fond of being busy with working on amazing project ideas. Often gets his hands 
@@ -27,12 +27,12 @@ dirty , implementing research paper on natural language processing , especially 
         </ScrollAnimation>
 
         <br/>
-        <ScrollAnimation animateIn="fadeInRight" delay={0.6 * 1000}>
+        <ScrollAnimation animateIn="fadeInRight" delay={0.6 * 1000} animateOnce={true}>
           <p>He has amazing project management and ideation skills being one of #The_Original_Six_of_Technocrats.He is well versed with 9 Programming Languages.</p>
         </ScrollAnimation>
 
         
-        <ScrollAnimation animateIn="fadeInRight" delay={0.7 * 1000}>
+        <ScrollAnimation animateIn="fadeInRight" delay={0.7 * 1000} animateOnce={true}>
           <h3>Expertise:</h3>
         </ScrollAnimation>
         <div className="hard-skills">
@@ -49,7 +49,7 @@ dirty , implementing research paper on natural language processing , especially 
           <Python/>
         </div>
 
-      <ScrollAnimation animateIn="fadeInRight" delay={0.7 * 1000}>
+      <ScrollAnimation animateIn="fadeInRight" delay={0.7 * 1000} animateOnce={true}>
           <h3>Social Urls :</h3>
         </ScrollAnimation>
 
@@ -73,7 +73,7 @@ dirty , implementing research paper on natural language processing , especially 
         </div>
 
         <br/>
-        <ScrollAnimation animateIn="fadeInRight" delay={0.6 * 1000}>
+        <ScrollAnimation animateIn="fadeInRight" delay={0.6 * 1000} animateOnce={true}>
           <p>He is Expert@Codeforces. He has been handling the post of Additional Secretary at Big Data Analytics and Consulting Cell since 1.5 years, apart from being a student researcher at Nevronas.</p>
         </ScrollAnimation>
 
@@ -82,7 +82,7 @@ dirty , implementing research paper on natural language processing , especially 
 
 
       <div className="about-image">
-        <ScrollAnimation animateIn="fadeInLeft" delay={0.6 * 1000}>
+        <ScrollAnimation animateIn="fadeInLeft" delay={0.6 * 1000} animateOnce={true}>
           <img src={anshuImg} alt="Anshuman Mishra" />
         </ScrollAnimation>
 
