@@ -4,7 +4,7 @@ import styled from "styled-components";
 export const Container = styled.footer`
   background-color: #2b2b2b;
   padding: 3rem 15rem;
-  margin-top: 15rem;
+  margin-top: 3rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -21,6 +21,9 @@ export const Container = styled.footer`
     gap: 0.5rem;
     img{
       width: 2.6rem;
+      
+    }
+    #react{
       animation: spinning 5s infinite linear;
     }
   }

@@ -15,16 +15,20 @@ function Intro(){
 
         <br/>
         <ScrollAnimation animateIn="fadeInUp" delay={0.2*1000} animateOnce={true}>
+        <span id="top-this">This is</span>
           <h1>Technocrats Labs</h1>
         </ScrollAnimation>
 
-        <ScrollAnimation animateIn="fadeInUp" delay={0.4 * 1000} animateOnce={true}>
+        {/* <ScrollAnimation animateIn="fadeInUp" delay={0.4 * 1000} animateOnce={true}>
           <h3>We leverage ultimate technologies to transcend customer experience</h3>
-        </ScrollAnimation>
+        </ScrollAnimation> */}
         <br/>
         <br/>
         <ScrollAnimation animateIn="fadeInUp" delay={0.6 * 1000} animateOnce={true}>
-          <h2>lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqulorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqu </h2>
+          <h2>
+          <span class="team-name">6 Friends</span>, unified by nothing but the zeal to acheive something - anything at all - form a team to participate in a hackathon.             
+          Then they take part in another, then another, and then.... here they are trying to provide their skills as a service to people with mutual benefits.
+          </h2>
         </ScrollAnimation>
         
         <br/>

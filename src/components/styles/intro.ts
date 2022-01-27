@@ -1,7 +1,5 @@
 import styled from "styled-components";
 
-
-
 export const Container = styled.section`
   padding-top: 15%;
   display: flex;
@@ -23,6 +21,7 @@ export const Container = styled.section`
     h1{
       font-size: 7rem;
       color:#432a59;
+      margin-top: 0;
     }
 
     h3{
@@ -73,5 +72,17 @@ export const Container = styled.section`
   }
   @media(max-width: 480px){
     margin-top: 35%;
+  }
+
+  .team-name{
+    font-size: 120%;
+    color: #000000;
+  }
+
+  #top-this{
+    font-size: 150%;
+    color: #212121;
+    font-weight: bold;
+    margin-bottom: 0;
   }
 `
