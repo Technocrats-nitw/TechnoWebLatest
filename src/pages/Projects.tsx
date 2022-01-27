@@ -1,10 +1,10 @@
 import React from "react";
-import { Container } from "./styles";
+import { Container } from "../components/styles/projects";
 import ScrollAnimation from "react-animate-on-scroll";
-import { Css, Django, Flutter, Js, Python, Tf, Torch, Unity } from "../Icons/Icons";
+import { Css, Django, Flutter, Js, Python, Tf, Torch, Unity } from "../components/Icons";
 
 
-export function Projects(){
+function Projects(){
   return(
     <Container id="projects">
       <h2>Project Gallery</h2>
@@ -153,3 +153,5 @@ export function Projects(){
     </Container>
   );
 }
+
+export default Projects;

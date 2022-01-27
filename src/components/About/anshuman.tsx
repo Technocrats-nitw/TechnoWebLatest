@@ -1,8 +1,8 @@
 import React from "react";
-import { Container } from "./styles";
+import { Container } from "../styles/about";
 
 import ScrollAnimation from "react-animate-on-scroll";
-import { Android, Cpp, Django, Flutter, HTML, Js, Nodejs, Python, REACT, Tf, Torch } from "../Icons/Icons";
+import { Android, Cpp, Django, Flutter, HTML, Js, Nodejs, Python, REACT, Tf, Torch } from "../Icons";
 import linkedinIcon from '../../assets/linkedin.png'
 import githubIcon from '../../assets/github.png'
 import anshuImg from "../../assets/anshuman.jpeg";

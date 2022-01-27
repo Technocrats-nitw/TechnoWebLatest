@@ -1,8 +1,8 @@
 import React from "react";
-import { Container } from "./styles";
+import { Container } from "../styles/about";
 
 import ScrollAnimation from "react-animate-on-scroll";
-import { Cpp, Matlab, Python, Ros, Solidworks, Tf } from "../Icons/Icons";
+import { Cpp, Matlab, Python, Ros, Solidworks, Tf } from "../Icons";
 import linkedinIcon from '../../assets/linkedin.png'
 import githubIcon from '../../assets/github.png'
 import abdullahImg from "../../assets/abdullah.jpeg";

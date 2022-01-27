@@ -1,9 +1,9 @@
 import React from "react";
-import { Container } from './styles'
+import { Container } from './styles/header'
 import { BrowserRouter as Router } from 'react-router-dom'
 import { NavHashLink, HashLink } from 'react-router-hash-link'
 import { useState } from 'react'
-import TechnocratsImg from "./../../assets/technocrats.svg";
+import TechnocratsImg from "./../assets/technocrats.svg";
 
 export function Header() {
   const [isActive, setActive] = useState(false)
@@ -21,26 +21,20 @@ export function Header() {
     <Container className="header-fixed">
     
     <img src={TechnocratsImg} alt="Ilustração" height={100}/>
-      
-      <Router>
-        
-
         <nav className={isActive ? 'active' : ''}>
-          <NavHashLink smooth to="#home" onClick={closeMenu}>
+          <NavHashLink smooth to="/" onClick={closeMenu}>
             Home
           </NavHashLink>
-          <NavHashLink smooth to="#projects" onClick={closeMenu}>
+          <NavHashLink smooth to="/projects" onClick={closeMenu}>
             Projects
           </NavHashLink>
-          <NavHashLink smooth to="#sobre" onClick={closeMenu}>
+          <NavHashLink smooth to="/team" onClick={closeMenu}>
             The Original Six
           </NavHashLink>
           <NavHashLink smooth to="#foot" onClick={closeMenu}>
             Get in Touch !
           </NavHashLink>
-          
         </nav>
-
         <div
           aria-expanded={isActive ? 'true' : 'false'}
           aria-haspopup="true"
@@ -50,7 +44,6 @@ export function Header() {
             setActive(!isActive)
           }}
         ></div>
-      </Router>
     </Container>
   )
 }

@@ -1,28 +1,29 @@
 import React from "react";
 
-import sqlIcon from "../../assets/mysql-icon.svg";
-import cssIcon from "../../assets/css-icon.svg";
-import htmlIcon from "../../assets/html-icon.svg";
-import jsIcon from "../../assets/js-icon.svg";
-import nodeIcon from "../../assets/node-icon.svg";
-import reactIcon from "../../assets/react-icon.svg";
-import typescriptIcon from "../../assets/typescript-icon.svg";
-import flutterIcon from "../../assets/flutterio-icon.svg";
-import djangoIcon from "../../assets/djangoproject-icon.svg";
-import androidIcon from "../../assets/android-tile.svg";
-import rustIcon from "../../assets/rust.svg";
-import unityIcon from "../../assets/unity3d-icon.svg";
-import matlabIcon from "../../assets/matlab.svg";
-import solidWorksIcon from "../../assets/solidworks.svg";
-import tfIcon from "../../assets/tensorflow-icon.svg";
-import rosIcon from "../../assets/ros.png";
-import pythonIcon from "../../assets/python-icon.svg";
-import mongoIcon from "../../assets/mongo.svg";
-import torchIcon from "../../assets/pytorch-icon.svg";
-import seleniumIcon from "../../assets/selenium.svg";
-import cppIcon from "../../assets/cpp.svg";
-import csharpIcon from "../../assets/csharp.svg";
-import folderIcon from "../../assets/folder.svg";
+import sqlIcon from "./../assets/mysql-icon.svg";
+import cssIcon from "./../assets/css-icon.svg";
+import htmlIcon from "./../assets/html-icon.svg";
+import jsIcon from "./../assets/js-icon.svg";
+import nodeIcon from "./../assets/node-icon.svg";
+import reactIcon from "./../assets/react-icon.svg";
+import typescriptIcon from "./../assets/typescript-icon.svg";
+import flutterIcon from "./../assets/flutterio-icon.svg";
+import djangoIcon from "./../assets/djangoproject-icon.svg";
+import androidIcon from "./../assets/android-tile.svg";
+import rustIcon from "./../assets/rust.svg";
+import unityIcon from "./../assets/unity3d-icon.svg";
+import matlabIcon from "./../assets/matlab.svg";
+import solidWorksIcon from "./../assets/solidworks.svg";
+import tfIcon from "./../assets/tensorflow-icon.svg";
+import rosIcon from "./../assets/ros.png";
+import pythonIcon from "./../assets/python-icon.svg";
+import mongoIcon from "./../assets/mongo.svg";
+import torchIcon from "./../assets/pytorch-icon.svg";
+import seleniumIcon from "./../assets/selenium.svg";
+import cppIcon from "./../assets/cpp.svg";
+import csharpIcon from "./../assets/csharp.svg";
+import folderIcon from "./../assets/folder.svg";
+import mouseScrollIcon from "./../assets/mouse.svg"
 
 import ScrollAnimation from "react-animate-on-scroll";
 
@@ -267,6 +268,14 @@ export function Mongo(){
             <ScrollAnimation animateIn="fadeInUp" delay={0.1 * 1000}>
               <img src={mongoIcon} alt="MongoDB" />
             </ScrollAnimation>
+        </div>
+    );
+}
+
+export function MouseScroll(){
+    return (
+        <div className="hability">
+              <img src={mouseScrollIcon} alt="MongoDB" height="6%" width="6%"/>
         </div>
     );
 }

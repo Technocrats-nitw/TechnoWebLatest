@@ -1,10 +1,10 @@
 import React from "react";
 
 import ScrollAnimation from "react-animate-on-scroll"
-import { Container } from "./styles"
+import { Container } from "../components/styles/intro"
 
 
-export function Intro(){
+function Intro(){
   return(
     <Container id="home">      
       <div className="hero-text">
@@ -32,3 +32,5 @@ export function Intro(){
     </Container>
   )
 }
+
+export default Intro;

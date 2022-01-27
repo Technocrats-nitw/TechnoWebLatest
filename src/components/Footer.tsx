@@ -1,18 +1,18 @@
 import React from "react";
-import { Container } from './styles'
+import { Container } from './styles/footer'
 
-import reactIcon from '../../assets/react-icon.svg'
-import linkedinIcon from '../../assets/linkedin.png'
-import githubIcon from '../../assets/github.png'
-import youtubeIcon from '../../assets/youtube.svg'
-import twitterIcon from '../../assets/twitter.png'
+import reactIcon from './../assets/react-icon.svg'
+import linkedinIcon from './../assets/linkedin.png'
+import githubIcon from './../assets/github.png'
+import youtubeIcon from './../assets/youtube.svg'
+import twitterIcon from './../assets/twitter.png'
 
 export function Footer() {
   return (
-    <Container className="footer" id="foot">
+    <Container className="footer" id="foot"> 
       <a href="/" className="logo">
         <span>Technocrats Labs</span>
-        <h6>technocrats.nitw@gmail.com</h6>
+        <h6><a href="mailto:technocrats.nitw@gmail.com" style={{color: '#ffffff'}}>technocrats.nitw@gmail.com</a></h6>
       </a>
       <div>
         <p>

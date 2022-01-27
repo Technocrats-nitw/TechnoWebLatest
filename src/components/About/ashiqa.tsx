@@ -1,6 +1,6 @@
 import React from "react";
-import { Android, Cpp, Css, Django, Flutter, HTML, Js, Mysql, Nodejs, Python, REACT, Selenium } from "../Icons/Icons";
-import { Container } from "./styles";
+import { Android, Cpp, Css, Django, Flutter, HTML, Js, Mysql, Nodejs, Python, REACT, Selenium } from "../Icons";
+import { Container } from "../styles/about";
 import ScrollAnimation from "react-animate-on-scroll";
 import linkedinIcon from '../../assets/linkedin.png'
 import githubIcon from '../../assets/github.png'
