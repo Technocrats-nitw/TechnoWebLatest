@@ -2,7 +2,6 @@ import React from "react";
 
 import ScrollAnimation from "react-animate-on-scroll"
 import { Container } from "../assets/styles/intro"
-import Testimonial from "../components/testimonial";
 
 function Intro(){
   return(
@@ -36,8 +35,6 @@ function Intro(){
         <br/>
 
         <br/>
-
-        <Testimonial/>
 
       </div>
     </Container>
