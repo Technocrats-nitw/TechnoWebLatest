@@ -1,6 +1,6 @@
 import React from "react";
 import ScrollAnimation from "react-animate-on-scroll"
-import './styles/testimonial.css'
+import '../assets/styles/testimonial.css'
 
 function TestimonialCards(props:any){
     const direction = props.direction;
@@ -14,14 +14,14 @@ function TestimonialCards(props:any){
         <>
             <ScrollAnimation animateIn={fadeDir} delay={0.15 * 1000} animateOnce={true}>
             <div className={behavior}>
-                <img src={props.img}/>
+                <img src={props.item.img}/>
                 <div className="quote-container">
                     <blockquote>
-                        <p>{props.testimonial}”</p>
+                        <p>{props.item.testimonial}”</p>
                     </blockquote>  
-                    <cite><span>{props.name}</span><br/>
-                        {props.title}<br/>
-                        {props.college}
+                    <cite><span>{props.item.name}</span><br/>
+                        {props.item.title}<br/>
+                        {props.item.college}
                     </cite>
                 </div>
             </div>    

@@ -1,11 +1,11 @@
 import React from "react";
-import { Container } from "../styles/about";
+import { Container } from "../../assets/styles/about";
 
 import ScrollAnimation from "react-animate-on-scroll";
 import { Cpp, Matlab, Python, Rust, Unity } from "../Icons";
-import linkedinIcon from '../../assets/linkedin.png'
-import githubIcon from '../../assets/github.png'
-import aadiImg from "../../assets/aaditya.jpeg";
+import linkedinIcon from '../../assets/icons/linkedin.png'
+import githubIcon from '../../assets/icons/github.png'
+import aadiImg from "../../assets/images/aaditya.jpeg";
 
 
 export function Aaditya(props:any){

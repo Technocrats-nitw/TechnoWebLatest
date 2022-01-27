@@ -1,9 +1,9 @@
 import React from "react";
-import { Container } from './styles/header'
+import { Container } from '../assets/styles/header'
 import { BrowserRouter as Router } from 'react-router-dom'
 import { NavHashLink, HashLink } from 'react-router-hash-link'
 import { useState } from 'react'
-import TechnocratsImg from "./../assets/technocrats.svg";
+import TechnocratsImg from "./../assets/icons/technocrats.svg";
 
 export function Header() {
   const [isActive, setActive] = useState(false)
