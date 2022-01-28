@@ -27,7 +27,6 @@ import mouseScrollIcon from "./../assets/icons/mouse.svg"
 
 import ScrollAnimation from "react-animate-on-scroll";
 
-
 export function Folder(){
     return (
         <div className="hability">
@@ -117,7 +116,6 @@ export function Solidworks(){
         </div>
     );
 }
-
 
 export function REACT(){
     return (
