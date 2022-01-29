@@ -20,17 +20,12 @@ export const Container = styled.section`
     }
     h1{
       font-size: 7rem;
-      color:#432a59;
+      color:var(--darkpink);
       margin-top: 0;
     }
 
-    h3{
-      color:var(--purple);
-      margin: 1rem 0;
-    }
-
     h2{
-      color:var(--purple);
+      color:white ;
       margin: 1rem 0;
     }
 
@@ -76,7 +71,7 @@ export const Container = styled.section`
 
   .team-name{
     font-size: 120%;
-    color: #000000;
+    color: var(--pink);
   }
 
   #top-this{

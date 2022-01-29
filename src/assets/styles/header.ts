@@ -35,7 +35,7 @@ export const Container = styled.header`
 
       &:hover{
         filter: brightness(0.6);
-        color:var(--orange)
+        color:var(--gold);
       }
     }
 
@@ -135,7 +135,7 @@ export const Container = styled.header`
   }
 
   input:checked + label {
-    background: var(--pink);
+    background: var(--gold);
   }
 
   input:checked + label:after {
@@ -173,7 +173,7 @@ export const Container = styled.header`
       background-color: var(--green);
 
       a.button{
-        background-color: var(--pink);
+        background-color: var(--gold);
       }
 
       &.active{

@@ -16,7 +16,7 @@ export const Container = styled.section`
     text-align: center;
     font-size: 4rem;
     margin-bottom: 10rem;
-    color:#000000;
+    color:var(--gold);
   }
 
   .projects{
@@ -38,7 +38,7 @@ export const Container = styled.section`
       color: #FFF;
       &:hover{
         transform: translateY(-5px);
-        background-color: var(--orange);
+        background-color: var(--gold);
       }
 
       header{
@@ -68,7 +68,7 @@ export const Container = styled.section`
           border-bottom: 1px solid var(--green);
           transition: color 0.25s;
           &:hover{
-            color: var(--purple);
+            color: black;
           }
         }
       }
