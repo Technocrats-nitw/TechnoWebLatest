@@ -15,6 +15,7 @@ export const Container = styled.section`
   }
 
   .hero-text{
+    min-height:90vh;
     & > p{
       font-size: 1.8rem;
     }
