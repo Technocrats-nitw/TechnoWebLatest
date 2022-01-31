@@ -6,9 +6,9 @@ export const Container = styled.header`
   justify-content: space-between;
   align-items: center;
   padding: 0.8rem 10rem;
-  
+
   background-color: #21212150;
-  
+
   backdrop-filter: blur(6px);
 
   position: fixed;
@@ -34,8 +34,8 @@ export const Container = styled.header`
       }
 
       &:hover{
-        filter: brightness(0.6);
-        color:var(--orange)
+        //filter: brightness(0.6);
+        color:var(--gold);
       }
     }
 
@@ -102,7 +102,7 @@ export const Container = styled.header`
     text-indent: -9999px;
     width: 55px;
     height: 30px;
-    background: var(--green);
+    background: var(--purple);
     display: block;
     justify-content: center;
     align-items: center;
@@ -135,7 +135,7 @@ export const Container = styled.header`
   }
 
   input:checked + label {
-    background: var(--pink);
+    background: var(--gold);
   }
 
   input:checked + label:after {
@@ -170,10 +170,10 @@ export const Container = styled.header`
       top: 0;
       left: 0;
       transition: opacity 0.25s;
-      background-color: var(--green);
+      background-color: var(--purple);
 
       a.button{
-        background-color: var(--pink);
+        background-color: var(--gold);
       }
 
       &.active{
@@ -182,5 +182,5 @@ export const Container = styled.header`
       }
     }
   }
-  
+
 `
