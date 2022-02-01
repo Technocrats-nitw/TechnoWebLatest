@@ -5,8 +5,7 @@ export const Container = styled.section`
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 2rem;
-  --black: #000000;
-
+  
   .hard-skills{
     margin-top: 1.6rem;
     display: flex;
@@ -27,20 +26,19 @@ export const Container = styled.section`
   h2{
     display: inline-block;
     margin-bottom: 2rem;
-    color: black;
+    color: var(--gold);
     border-bottom: 0.2rem solid var(--blue);
   }
 
   h3{
     margin-top: 2rem;
-    color: black;
-    color: var(--purple);
+    color: #fbc14e;
   }
 
   p{
     font-size: 1.8rem;
     letter-spacing: 0.1rem;
-    color: var(--purple);
+    color: white ;
     font-weight: 500;
   }
 

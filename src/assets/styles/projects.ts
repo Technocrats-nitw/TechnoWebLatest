@@ -16,7 +16,7 @@ export const Container = styled.section`
     text-align: center;
     font-size: 4rem;
     margin-bottom: 10rem;
-    color:#000000;
+    color:var(--gold);
   }
 
   .projects{
@@ -29,7 +29,7 @@ export const Container = styled.section`
 
     .project{
       padding: 2rem 1.8rem;
-      background-color: #432a59;
+      background-color: var(--purple);
       border-radius: 1.2rem;
       transition: 0.25s;
       display: flex;
@@ -38,7 +38,7 @@ export const Container = styled.section`
       color: #FFF;
       &:hover{
         transform: translateY(-5px);
-        background-color: var(--orange);
+        background-color: var(--gold);
       }
 
       header{
@@ -65,10 +65,10 @@ export const Container = styled.section`
         margin-bottom: 2rem;
         a{
           color: #FFFF;
-          border-bottom: 1px solid var(--green);
+          border-bottom: 1px solid var(--purple);
           transition: color 0.25s;
           &:hover{
-            color: var(--purple);
+            color: black;
           }
         }
       }
@@ -79,8 +79,9 @@ export const Container = styled.section`
           display: flex;
           align-items: center;
           gap: 2rem;
-          font-size: 1.4rem;
-          opacity: 0.6;
+          font-size: 1.2rem;
+          font-weight: bold;
+          //opacity: 0.6;
         }
       }
 
