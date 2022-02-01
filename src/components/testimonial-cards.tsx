@@ -6,7 +6,7 @@ function TestimonialCards(props:any){
     const direction = props.direction;
     var behavior = "testimonial-quote group";
     var fadeDir = "fadeInLeft";
-    if(direction == 'right'){
+    if(direction === 'right'){
         behavior += " right";
         fadeDir = "fadeInRight";
     }
@@ -14,7 +14,7 @@ function TestimonialCards(props:any){
         <>
             <ScrollAnimation animateIn={fadeDir} delay={0.15 * 1000} animateOnce={true}>
             <div className={behavior}>
-                <img src={props.item.img}/>
+                <img src={props.item.img} alt="quote"/>
                 <div className="quote-container">
                     <blockquote>
                         <p>{props.item.testimonial}”</p>
@@ -26,7 +26,9 @@ function TestimonialCards(props:any){
                 </div>
             </div>    
             </ScrollAnimation>
-            <hr style={{margin: '60px auto', opacity: '.5'}}></hr>
+            <ScrollAnimation animateIn="fadeInUp" delay={0.18 * 1000} animateOnce={true}>
+                <hr style={{margin: '60px auto', opacity: '.5'}}></hr>
+            </ScrollAnimation>
         </>
         )
     

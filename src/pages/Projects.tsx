@@ -6,15 +6,25 @@ import { ProjectCard } from "../components/project-card";
 
 function Projects(){
   return(
-    <Container id="projects">
-      <h2>Project Gallery</h2>
-
+    <>
+    {/* <Container id="projects">
+      <h2>Achievements</h2>
       <div className="projects">
         {projects.map((project) =>{
           return <ProjectCard project={project} />
         })}
       </div>
-    </Container>
+    </Container> */}
+    <Container id="projects">
+    <h2>Project</h2>
+
+    <div className="projects">
+      {projects.map((project) =>{
+        return <ProjectCard project={project} />
+      })}
+    </div>
+  </Container>
+    </>
   );
 }
 

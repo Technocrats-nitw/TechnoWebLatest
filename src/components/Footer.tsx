@@ -16,7 +16,7 @@ export function Footer() {
       </a>
       <div>
         <p>
-          Made with <span>❤️</span> in <img src={reactIcon} alt="React" id="react" /> x <img src={githubIcon} alt="React" /> pages
+          Made with <span role="img" aria-label="Heart">❤️</span> in <img src={reactIcon} alt="React" id="react"/> x <img src={githubIcon} alt="github"/> pages
         </p>
       </div>
 
@@ -24,7 +24,7 @@ export function Footer() {
         <a
           href="https://www.linkedin.com/company/technocrats-lab"
           target="_blank"
-          rel="noreferrer"
+          rel="noopener noreferrer"
         >
           <img src={linkedinIcon} alt="Linkedin" />
         </a>
@@ -32,7 +32,7 @@ export function Footer() {
         <a
           href="https://github.com/Technocrats-nitw"
           target="_blank"
-          rel="noreferrer"
+          rel="noopener noreferrer"
         >
           <img src={githubIcon} alt="GitHub" />
         </a>
@@ -40,7 +40,7 @@ export function Footer() {
         <a
           href="https://twitter.com/labs_technocrat"
           target="_blank"
-          rel="noreferrer"
+          rel="noopener noreferrer"
         >
           <img src={twitterIcon} alt="Twitter" />
         </a>
@@ -48,7 +48,7 @@ export function Footer() {
         <a
           href="https://www.youtube.com/channel/UC7XJqHdyyUgQcIYkCsP8APg"
           target="_blank"
-          rel="noreferrer"
+          rel="noopener noreferrer"
         >
           <img src={youtubeIcon} alt="YouTube" />
         </a>

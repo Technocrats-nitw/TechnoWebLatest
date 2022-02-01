@@ -15,7 +15,7 @@ export const Container = styled.section`
   }
 
   .hero-text{
-    min-height:90vh;
+    min-height:70vh;
     & > p{
       font-size: 1.8rem;
     }
@@ -83,7 +83,6 @@ export const Container = styled.section`
     //opacity:0.85;
   }
   #TLabs{
-    font-size: 500%;
     color: var(--yellow);
     font-weight: bold;
   }

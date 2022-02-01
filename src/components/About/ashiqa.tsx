@@ -62,7 +62,7 @@ export function Ashiqa(props:any){
         <a
           href="https://www.linkedin.com/in/ashiqa-rahman-432a47192/"
           target="_blank"
-          rel="noreferrer"
+          rel="noopener noreferrer"
         >
           <img src={linkedinIcon} alt="Linkedin" />
         </a>
@@ -70,7 +70,7 @@ export function Ashiqa(props:any){
         <a
           href="https://github.com/ashiqa"
           target="_blank"
-          rel="noreferrer"
+          rel="noopener noreferrer"
         >
           <img src={githubIcon} alt="GitHub" />
         </a>

@@ -36,12 +36,12 @@ export const projects = [
         name: 'Connect',
         description: 'A Blogging and Social Media Platform',
         hardSkills: [<Django/>, <Js/>, <HTML/>, <Css/>],
-        techList : []
+        techList : ['Chaitanya']
     },
     {
         name: 'UNiT',
         description: 'Reasearch Paper Implementation : Multimodal Multitask Learning with a Unified Transformer',
         hardSkills: [<Torch/>, <Python/>],
-        techList : ['Chaitanya Hardikar']
+        techList : ['Chaitanya']
     }    
 ]

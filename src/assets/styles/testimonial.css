@@ -94,5 +94,7 @@
 
 #happycustomer{
     font-size:38px;
-    color: #212122;
+    color: #c0c0e4;
+    display: flex;
+    justify-content: center;
 }
