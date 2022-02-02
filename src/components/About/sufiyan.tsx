@@ -65,7 +65,7 @@ export function Sufiyan(){
         <a
           href="https://www.linkedin.com/in/sufiyan-ansari-nitw/"
           target="_blank"
-          rel="noreferrer"
+          rel="noopener noreferrer"
         >
           <img src={linkedinIcon} alt="Linkedin" />
         </a>
@@ -73,7 +73,7 @@ export function Sufiyan(){
         <a
           href="https://github.com/suffisme"
           target="_blank"
-          rel="noreferrer"
+          rel="noopener noreferrer"
         >
           <img src={githubIcon} alt="GitHub" />
         </a>

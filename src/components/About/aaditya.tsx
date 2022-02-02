@@ -52,7 +52,7 @@ export function Aaditya(props:any){
         <a
           href="https://www.linkedin.com/in/aaditya-prakash-74500b195/"
           target="_blank"
-          rel="noreferrer"
+          rel="noopener noreferrer"
         >
           <img src={linkedinIcon} alt="Linkedin" />
         </a>
@@ -60,7 +60,7 @@ export function Aaditya(props:any){
         <a
           href="https://github.com/Kapi2910"
           target="_blank"
-          rel="noreferrer"
+          rel="noopener noreferrer"
         >
           <img src={githubIcon} alt="GitHub" />
         </a>

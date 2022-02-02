@@ -2,7 +2,7 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://technocrats-nitw.github.io/web/", 
+  "homepage": "https://technocrats-nitw.github.io/web/",
   "dependencies": {
     "@formspree/react": "^2.2.4",
     "@testing-library/jest-dom": "^5.14.1",
@@ -16,6 +16,7 @@
     "react-animate-on-scroll": "^2.1.5",
     "react-dom": "^16.8.6",
     "react-google-recaptcha": "^2.1.0",
+    "react-responsive-carousel": "^3.2.22",
     "react-router-dom": "^6.2.1",
     "react-router-hash-link": "^2.4.3",
     "react-scripts": "^3.0.1",

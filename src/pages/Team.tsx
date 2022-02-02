@@ -9,7 +9,7 @@ import { Anshuman } from "../components/About/anshuman";
 import ScrollAnimation from "react-animate-on-scroll"
 import { Container } from "../assets/styles/intro"
 import {MouseScroll} from "../components/Icons"
-import { NavHashLink, HashLink } from 'react-router-hash-link'
+import { NavHashLink } from 'react-router-hash-link'
 
 function Team(){
     return(

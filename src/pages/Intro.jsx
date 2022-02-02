@@ -16,7 +16,7 @@ function Intro(){
         <ScrollAnimation animateIn="fadeInUp" delay={0.2*1000} animateOnce={true}>
         <span id="top-this">This is</span>
         <br/>
-        <span id="TLabs">Technocrats Labs</span>
+        <h1 id="TLabs">Technocrats Labs</h1>
         </ScrollAnimation>
 
         {/* <ScrollAnimation animateIn="fadeInUp" delay={0.4 * 1000} animateOnce={true}>

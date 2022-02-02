@@ -1,7 +1,6 @@
 import React from "react";
 import { Container } from '../assets/styles/header'
-import { BrowserRouter as Router } from 'react-router-dom'
-import { NavHashLink, HashLink } from 'react-router-hash-link'
+import { NavHashLink } from 'react-router-hash-link'
 import { useState } from 'react'
 import TechnocratsImg from "./../assets/icons/5.svg";
 

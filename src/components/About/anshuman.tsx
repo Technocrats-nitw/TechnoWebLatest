@@ -57,7 +57,7 @@ dirty , implementing research paper on natural language processing , especially 
         <a
           href="https://www.linkedin.com/in/iamanshuman/"
           target="_blank"
-          rel="noreferrer"
+          rel="noopener noreferrer"
         >
           <img src={linkedinIcon} alt="Linkedin" />
         </a>
@@ -65,7 +65,7 @@ dirty , implementing research paper on natural language processing , especially 
         <a
           href="https://github.com/anshuisme"
           target="_blank"
-          rel="noreferrer"
+          rel="noopener noreferrer"
         >
           <img src={githubIcon} alt="GitHub" />
         </a>

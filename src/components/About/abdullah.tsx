@@ -60,7 +60,7 @@ export function Abdullah(props:any){
         <a
           href="https://www.linkedin.com/in/shaik-abdullah-6ab62219b/"
           target="_blank"
-          rel="noreferrer"
+          rel="noopener noreferrer"
         >
           <img src={linkedinIcon} alt="Linkedin" />
         </a>
@@ -68,7 +68,7 @@ export function Abdullah(props:any){
         <a
           href="https://github.com/Shaik2003"
           target="_blank"
-          rel="noreferrer"
+          rel="noopener noreferrer"
         >
           <img src={githubIcon} alt="GitHub" />
         </a>

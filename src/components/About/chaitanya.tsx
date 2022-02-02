@@ -56,7 +56,7 @@ export function Chaitanya(props:any){
         <a
           href="https://www.linkedin.com/in/chaitanya-hardikar-0ab4821a7/"
           target="_blank"
-          rel="noreferrer"
+          rel="noopener noreferrer"
         >
           <img src={linkedinIcon} alt="Linkedin" />
         </a>
@@ -64,7 +64,7 @@ export function Chaitanya(props:any){
         <a
           href="https://github.com/chaitanyahardikar"
           target="_blank"
-          rel="noreferrer"
+          rel="noopener noreferrer"
         >
           <img src={githubIcon} alt="GitHub" />
         </a>
