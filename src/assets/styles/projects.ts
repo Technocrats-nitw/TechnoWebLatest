@@ -15,17 +15,24 @@ export const Container = styled.section`
   h2{
     text-align: center;
     font-size: 4rem;
-    margin-bottom: 10rem;
+    margin: 5rem 0;
     color:var(--gold);
   }
-
+  .projects::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .projects {
+    -ms-overflow-style: none; 
+    scrollbar-width: none; 
+  }
   .projects{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     grid-template-rows: auto;
     gap: 2rem;
     padding: 1rem;
-    overflow: hidden;
+    overflow: scroll;
 
     .project{
       padding: 2rem 1.8rem;
@@ -90,13 +97,19 @@ export const Container = styled.section`
 
   @media (max-width: 960px){
     .projects{
-      grid-template-columns: 1fr 1fr;
+      grid-template-columns: 1fr;
     }
   }
 
-  @media (max-width: 740px){
+  @media (max-width: 768px){
     .projects{
       grid-template-columns: 1fr;
+    }
+    #projects{
+      margin-top: 30rem;
+    }
+    .headings{
+      font-size: 2.75rem;
     }
   }
 `

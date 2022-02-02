@@ -6,7 +6,7 @@ import { BrowserRouter as Router ,Routes, Route} from 'react-router-dom'
 import Team from './pages/Team';
 import Intro from './pages/Intro';
 import Projects from './pages/Projects';
-import {Container} from "./assets/styles/particle";
+import { Container } from "./assets/styles/particle";
 import { Header } from "./components/Header";
 import Testimonial from './pages/testimonial'
 import { Particle } from "./components/Particle";
