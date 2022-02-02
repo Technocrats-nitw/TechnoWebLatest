@@ -1,12 +1,15 @@
+import styled from "styled-components"
+
+export const Container = styled.section`
 .filter-button {
-    background-color: rgb(2, 10, 37);
+    background-color: var(--darkblue);
     font-size: 2.5rem;
     padding: 0.5% 1%;
     margin: 0 0.5%;
     border-radius: 1rem;
 }
 .filter-button:hover {
-    background-color: #e6aa32;
+    background-color: var(--gold);
     filter: brightness(1.0);
 }
 .buttons {
@@ -24,3 +27,4 @@
     }
     
 }
+`
