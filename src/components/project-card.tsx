@@ -1,29 +1,42 @@
 import React from "react";
 import ScrollAnimation from "react-animate-on-scroll";
 
-export function ProjectCard(props:any){
+export function ProjectCard({projects}:any){
   return(
-        <ScrollAnimation  animateOnce={true} animateIn="flipInX">
-          <div className="project">
-            <div className="body">
-              <h3>{props.project.name}</h3>
-              <p>{props.project.description}</p>
+      <div className="projects">
+        {
+            projects.map((item:any) => {
+            return (
 
-            <div className="hard-skills">
-                {props.project.hardSkills.map((item:any) =>{
-                   return item;
-                })}
+                <ScrollAnimation  animateOnce={true} animateIn="flipInX">
+                <div className="project" key={item.id}>
+                <div className="body">
+                <h3>{item.name}</h3>
+                <p>{item.description}</p>
+
+                <div className="hard-skills">
+                  {item.hardSkills.map((item:any) =>{
+                      return item;
+                  })}
+                </div>
+                <footer>  
+                  <ul className="tech-list">
+                      {item.techList.map((item:any) =>{
+                        return <li>{item}</li>;
+                      })}
+                      
+                  </ul>
+                </footer>
+              </div>
             </div>
-            <footer>  
-            <ul className="tech-list">
-                {props.project.techList.map((item:any) =>{
-                    return <li>{item}</li>;
-                    })}
-                  
-                </ul>
-            </footer>
-            </div>
-          </div>
-        </ScrollAnimation>
+            </ScrollAnimation>
+            
+            )
+          }
+        )
+      }
+      </div>        
   );
 }
+
+export default ProjectCard;
